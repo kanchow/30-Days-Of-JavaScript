@@ -773,7 +773,7 @@ let regEx = /\d+/
 // + means one or more digit numbers,
 // if there is g after that it means global, search everywhere.
 
-console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+console.log(txt.match(regEx))  // ['2019', index: 3, input: 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge', groups: undefined]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
