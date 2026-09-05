@@ -218,16 +218,16 @@ console.log('python'.length > 'dragon'.length)  // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
-JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
+JavaScript is somehow a weird kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+As a rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
 ### Logical Operators
 
 The following symbols are the common logical operators:
 &&(ampersand) , ||(pipe) and !(negation).
 The && operator gets true only if the two operands are true.
-The || operator gets true either of the operand is true.
+The || operator gets true if either operand is true.
 The ! operator negates true to false and false to true.
 
 ```js
@@ -341,7 +341,7 @@ I would like to recommend you to read about operator precedence from this [link]
 
 ### Window alert() method
 
-As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a builtin method and it takes on argument.
+As you have seen at very beginning alert() method displays an alert box with a specified message and an OK button. It is a built-in method and it takes on argument.
 
 ```js
 alert(message)
@@ -351,11 +351,11 @@ alert(message)
 alert('Welcome to 30DaysOfJavaScript')
 ```
 
-Do not use too much alert because it is destructing and annoying, use it just to test.
+Do not use too much alert because it is disruptive and annoying, use it just to test.
 
 ### Window prompt() method
 
-The window prompt methods display a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
+The window prompt() method displays a prompt box with an input on your browser to take input values and the input data can be stored in a variable. The prompt() method takes two arguments. The second argument is optional.
 
 ```js
 prompt('required text', 'optional text')
@@ -381,7 +381,7 @@ These are not all the window methods we will have a separate section to go deep 
 
 ## Date Object
 
-Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
+Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provides the information.
 _getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
 
 ![Date time Object](../images/date_time_object.png)
@@ -464,13 +464,13 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 ### Getting time
 
-This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
+This method give time in milliseconds starting from January 1, 1970. It is also known as Unix time. We can get the unix time in two ways:
 
 1. Using _getTime()_
 
 ```js
 const now = new Date()
-console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+console.log(now.getTime()) // 1578092201341, this is the number of milliseconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
 1. Using _Date.now()_
