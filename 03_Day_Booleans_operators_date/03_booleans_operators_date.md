@@ -571,7 +571,7 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
 1. Compare the slope of above two questions.
 1. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-1. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+1. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
     ```sh
     Enter hours: 40
@@ -628,6 +628,6 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ### Exercises: Level 3
 
 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
-   1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
+   1. YYY-MM-DD HH:mm eg. 2020-01-02 07:05
 
 [<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
