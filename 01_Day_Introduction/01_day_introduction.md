@@ -218,11 +218,11 @@ It is possible to write JavaScript code on the Google Chrome console directly wi
 ![Arithmetic](../images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
-console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
+console.log(2 + 3)  // Addition
+console.log(3 - 2)  // Subtraction
+console.log(2 * 3)  // Multiplication
+console.log(3 / 2)  // Division
+console.log(3 % 2)  // Modulus - finding remainder
 console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 ```
 
@@ -431,7 +431,7 @@ A boolean data type is either a true or false value.
 **Example:**
 
 ```js
-true // if the light is on, the value is true
+true  // if the light is on, the value is true
 false // if the light is off, the value is false
 ```
 
@@ -458,10 +458,10 @@ To check the data type of a certain variable, we use the **typeof** operator. Se
 
 ```js
 console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean
-console.log(typeof null) // object type
-console.log(typeof undefined) // undefined
+console.log(typeof 5)          // number
+console.log(typeof true)       // boolean
+console.log(typeof null)       // object type
+console.log(typeof undefined)  // undefined
 ```
 
 ## Comments Again
@@ -550,10 +550,10 @@ The nameOfVariable is the name that stores different data of value. See below fo
 ```js
 // Declaring different variables of different data types
 let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+let lastName = 'Yetayeh'   // last name of a person
+let country = 'Finland'    // country
+let city = 'Helsinki'      // capital city
+let age = 100              // age in years
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -565,10 +565,10 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 
 ```js
 // Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
+let age = 100            // age in years
+const gravity = 9.81     // earth gravity  in m/s2
 const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
+const PI = 3.14          // geometrical constant
 console.log(gravity, boilingPoint, PI)
 ```
 

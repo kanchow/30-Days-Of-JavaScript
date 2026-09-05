@@ -64,7 +64,7 @@ let isLightOn = true
 let isRaining = false
 let isHungry = false
 let isMarried = true
-let trueValue = 4 > 3    // true
+let trueValue = 4 > 3   // true
 let falseValue = 4 < 3  // false
 ```
 
@@ -94,7 +94,7 @@ If we declare a variable and if we do not assign a value, the value will be unde
 
 ```js
 let firstName
-console.log(firstName) //not defined, because it is not assigned to a value yet
+console.log(firstName) // not defined, because it is not assigned to a value yet
 ```
 
 ## Null
@@ -140,7 +140,7 @@ let div = numOne / numTwo
 let remainder = numOne % numTwo
 let powerOf = numOne ** numTwo
 
-console.log(sum, diff, mult, div, remainder, powerOf) // 7,1,12,1.33,1, 64
+console.log(sum, diff, mult, div, remainder, powerOf) // 7, 1, 12, 1.33, 1, 64
 
 ```
 
