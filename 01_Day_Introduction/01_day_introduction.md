@@ -61,12 +61,7 @@ In this step by step JavaScript challenge, you will learn JavaScript, the most p
 JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**,  **_machine learning_** and **_AI_**.
 
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
-programming language for last ten years and is the most used programming language on
-GitHub.
-
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
-
-The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
+programming language for last ten years and is the most used programming language on GitHub.
 
 ## Requirements
 
@@ -124,7 +119,7 @@ Mac
 Command+Option+J
 
 Windows/Linux:
-Ctl+Shift+J
+Ctrl+Shift+J
 ```
 
 ![Opening console](images/opening_chrome_console_shortcut.png)
@@ -143,7 +138,7 @@ Mac
 Command+Option+I
 
 Windows:
-Ctl+Shift+I
+Ctrl+Shift+I
 ```
 
 ##### Console.log
@@ -548,7 +543,7 @@ Let us declare variables with different data types. To declare a variable, we ne
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+The nameOfVariable is the name that stores different data of value. See below for detail examples.
 
 **Examples of declared variables**
 
