@@ -213,7 +213,7 @@ console.log(`Hello, World!`)
 
 Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
 In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
 
 ![Arithmetic](images/arithmetic.png)
 
@@ -283,7 +283,7 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+Now, you just wrote your first inline script. We can create a pop-up alert message using the _`alert()`_ built-in function.
 
 ### Internal Script
 
@@ -424,7 +424,7 @@ A collection of one or more characters between two single quotes, double quotes,
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
 
 A boolean data type is either a true or false value.
 
@@ -493,7 +493,7 @@ Multiline commenting:
 
 Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is an error-prone way of declaring variable it has lots of leaks. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is an error-prone way of declaring a variable; it has lots of leaks. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
 
 A valid JavaScript variable name must follow the following rules:
 
@@ -526,7 +526,7 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+The first and second variables on the list follow the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase with two humps to declare classes, we will discuss about classes and objects in other section.
 
 Example of invalid variables:
 
@@ -543,7 +543,7 @@ Let us declare variables with different data types. To declare a variable, we ne
 let nameOfVariable = value
 ```
 
-The nameOfVariable is the name that stores different data of value. See below for detail examples.
+The nameOfVariable is the name that stores different data of value. See below for detailed examples.
 
 **Examples of declared variables**
 
@@ -577,7 +577,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a separate line to make code more readable
+// Variables can also be declared in one line separated by comma, however I recommend to use a separate line to make code more readable
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
