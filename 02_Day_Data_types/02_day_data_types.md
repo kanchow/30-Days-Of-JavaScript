@@ -183,7 +183,7 @@ console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 
 ### Math Object
 
-In JavaScript the Math Object provides a lots of methods to work with numbers.
+In JavaScript the Math Object provides a lot of methods to work with numbers.
 
 ```js
 const PI = Math.PI
@@ -766,7 +766,7 @@ console.log(string.match(pattern))   // ["love", "love", "love"]
 Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
 
 ```js
-let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'
+let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super excited to start this challenge'
 let regEx = /\d/g
 
 // d with escape character means d not a normal d instead acts a digit
@@ -821,7 +821,7 @@ console.log(typeof null)        // object
 
 ### Changing Data Type (Casting)
 
-- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
+- Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _String()_
   When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
 
 #### String to Int
