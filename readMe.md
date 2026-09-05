@@ -5,7 +5,7 @@
 
 | # Day |                                                                       Topics                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                             [Introduction](./readMe.md)                                                             |
+| 01    |                                                             [Introduction](./01_Day_Introduction/01_day_introduction.md)                                                             |
 | 02    |                                               [Data Types](./02_Day_Data_types/02_day_data_types.md)                                                |
 | 03    |                             [Booleans, Operators, Date](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                             |
 | 04    |                                            [Conditionals](./04_Day_Conditionals/04_day_conditionals.md)                                             |
