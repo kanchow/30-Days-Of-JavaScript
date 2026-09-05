@@ -255,11 +255,11 @@ Now, let us see how we can use random() method to generate a random number betwe
 
 ```js
 let randomNum = Math.random()      // generates 0 to 0.999
-let numBtnZeroAndTen = randomNum * 11
+let numBetweenZeroAndTen = randomNum * 11
 
-console.log(numBtnZeroAndTen)      // this gives: min 0 and max 10.99
+console.log(numBetweenZeroAndTen)      // this gives: min 0 and max 10.99
 
-let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
+let randomNumRoundToFloor = Math.floor(numBetweenZeroAndTen)
 console.log(randomNumRoundToFloor) // this gives between 0 and 10
 ```
 
@@ -331,7 +331,7 @@ A string could be a single character or paragraph or a page. If the string lengt
 const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
 I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
 Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
-In the end of 2019, I was thinking to expand my teaching and to reach \
+At the end of 2019, I was thinking to expand my teaching and to reach \
 to global audience and I started a Python challenge from November 20 - December 19.\
 It was one of the most rewarding and inspiring experience.\
 Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
@@ -450,7 +450,7 @@ console.log(firstName.length) // 8
 
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
-  ![Accessing sting by index](../images/string_indexes.png)
+  ![Accessing string by index](../images/string_indexes.png)
   
 Let us access different characters in 'JavaScript' string.
 
