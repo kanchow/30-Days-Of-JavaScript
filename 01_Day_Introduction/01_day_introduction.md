@@ -526,7 +526,7 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follow the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase with two humps to declare classes, we will discuss about classes and objects in other section.
+The first and second variables on the list follow the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
 
 Example of invalid variables:
 
