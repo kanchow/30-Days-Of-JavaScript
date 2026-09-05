@@ -91,12 +91,12 @@ Primitive data types are compared by its values. Let us compare different data v
 let numOne = 3
 let numTwo = 3
 
-console.log(numOne == numTwo)      // true
+console.log(numOne == numTwo) // true
 
 let js = 'JavaScript'
 let py = 'Python'
 
-console.log(js == py)             //false 
+console.log(js == py) // false 
 
 let lightOn = true
 let lightOff = false
@@ -113,7 +113,7 @@ Let us see by creating an array. An array is a list of data values in a square b
 let nums = [1, 2, 3]
 nums[0] = 10
 
-console.log(nums)  // [10, 2, 3]
+console.log(nums) // [10, 2, 3]
 ```
 
 As you can see, an array, which is a non-primitive data type is mutable. Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
@@ -122,7 +122,7 @@ As you can see, an array, which is a non-primitive data type is mutable. Non-pri
 let nums = [1, 2, 3]
 let numbers = [1, 2, 3]
 
-console.log(nums == numbers)  // false
+console.log(nums == numbers) // false
 
 let userOne = {
 name:'Asabeneh',
@@ -146,7 +146,7 @@ Non-primitive values are referred to as reference types, because they are being 
 let nums = [1, 2, 3]
 let numbers = nums
 
-console.log(nums == numbers)  // true
+console.log(nums == numbers) // true
 
 let userOne = {
 name:'Asabeneh',
@@ -156,7 +156,7 @@ country:'Finland'
 
 let userTwo = userOne
 
-console.log(userOne == userTwo)  // true
+console.log(userOne == userTwo) // true
 ```
 
 If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time. Now let us start the data types by number type.
@@ -170,9 +170,9 @@ Let's see some examples of Numbers.
 
 ```js
 let age = 35
-const gravity = 9.81  // we use const for non-changing values, gravitational constant in  m/s2
-let mass = 72         // mass in Kilogram
-const PI = 3.14       // pi a geometrical constant
+const gravity = 9.81 // we use const for non-changing values, gravitational constant in  m/s2
+let mass = 72        // mass in Kilogram
+const PI = 3.14      // pi a geometrical constant
 
 // More Examples
 const boilingPoint = 100 // temperature in oC, boiling point of water which is a constant
@@ -205,10 +205,10 @@ console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
 
 console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
-const randNum = Math.random() // creates random number between 0 to 0.999999
+const randNum = Math.random()              // creates random number between 0 to 0.999999
 console.log(randNum)
 
-// Let us  create random number between 0 to 10
+// Let us create random number between 0 to 10
 
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
@@ -254,13 +254,13 @@ let randomNum = Math.random() // generates 0 to 0.999...
 Now, let us see how we can use random() method to generate a random number between 0 and 10:
 
 ```js
-let randomNum = Math.random()         // generates 0 to 0.999
+let randomNum = Math.random()      // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 11
 
-console.log(numBtnZeroAndTen)         // this gives: min 0 and max 10.99
+console.log(numBtnZeroAndTen)      // this gives: min 0 and max 10.99
 
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
-console.log(randomNumRoundToFloor)    // this gives between 0 and 10
+console.log(randomNumRoundToFloor) // this gives between 0 and 10
 ```
 
 ## Strings
@@ -269,7 +269,7 @@ Strings are texts, which are under **_single_**  , **_double_**, **_back-tick_**
 Let's see some examples of strings:
 
 ```js
-let space = ' '           // an empty space string
+let space = ' ' // an empty space string
 let firstName = 'Asabeneh'
 let lastName = 'Yetayeh'
 let country = 'Finland'
@@ -410,7 +410,7 @@ let job = 'teacher'
 let age = 250
 let fullName = firstName + ' ' + lastName
 
-let personInfoTwo = `I am ${fullName}. I am ${age}. I live in ${country}.` //ES6 - String interpolation method
+let personInfoTwo = `I am ${fullName}. I am ${age}. I live in ${country}.` // ES6 - String interpolation method
 let personInfoThree = `I am ${fullName}. I live in ${city}, ${country}. I am a ${job}. I teach ${language}.`
 console.log(personInfoTwo)
 console.log(personInfoThree)
@@ -443,9 +443,9 @@ Everything in JavaScript is an object. A string is a primitive data type that me
 
 ```js
 let js = 'JavaScript'
-console.log(js.length)         // 10
+console.log(js.length)        // 10
 let firstName = 'Asabeneh'
-console.log(firstName.length)  // 8
+console.log(firstName.length) // 8
 ```
 
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
@@ -469,7 +469,7 @@ console.log(lastLetter)            // t
 let lastIndex = string.length - 1
 
 console.log(lastIndex)  // 9
-console.log(string[lastIndex])    // t
+console.log(string[lastIndex])     // t
 ```
 
 3. *toUpperCase()*: this method changes the string to uppercase letters.
@@ -493,11 +493,11 @@ console.log(country.toUpperCase())    // FINLAND
 ```js
 let string = 'JavasCript'
 
-console.log(string.toLowerCase())     // javascript
+console.log(string.toLowerCase())    // javascript
 
 let firstName = 'Asabeneh'
 
-console.log(firstName.toLowerCase())  // asabeneh
+console.log(firstName.toLowerCase()) // asabeneh
 
 let country = 'Finland'
 
@@ -508,10 +508,10 @@ console.log(country.toLowerCase())   // finland
 
 ```js
 let string = 'JavaScript'
-console.log(string.substr(4,6))    // Script
+console.log(string.substr(4,6))   // Script
 
 let country = 'Finland'
-console.log(country.substr(3, 4))   // land
+console.log(country.substr(3, 4)) // land
 ```
 
 6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
@@ -560,7 +560,7 @@ console.log(string.trim(' '))
 let firstName = ' Asabeneh '
 
 console.log(firstName)
-console.log(firstName.trim())  // still removes spaces at the beginning and the end of the string
+console.log(firstName.trim()) // still removes spaces at the beginning and the end of the string
 ```
 
 ```sh
@@ -575,19 +575,19 @@ Asabeneh
 ```js
 let string = '30 Days Of JavaScript'
 
-console.log(string.includes('Days'))     // true
-console.log(string.includes('days'))     // false - it is case sensitive!
-console.log(string.includes('Script'))   // true
-console.log(string.includes('script'))   // false
-console.log(string.includes('java'))     // false
-console.log(string.includes('Java'))     // true
+console.log(string.includes('Days'))   // true
+console.log(string.includes('days'))   // false - it is case sensitive!
+console.log(string.includes('Script')) // true
+console.log(string.includes('script')) // false
+console.log(string.includes('java'))   // false
+console.log(string.includes('Java'))   // true
 
 let country = 'Finland'
 
-console.log(country.includes('fin'))     // false
-console.log(country.includes('Fin'))     // true
-console.log(country.includes('land'))    // true
-console.log(country.includes('Land'))    // false
+console.log(country.includes('fin'))  // false
+console.log(country.includes('Fin'))  // true
+console.log(country.includes('land')) // true
+console.log(country.includes('Land')) // false
 ```
 
 10. *replace()*: takes as a parameter the old substring and a new substring.
@@ -601,7 +601,7 @@ let string = '30 Days Of JavaScript'
 console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
 
 let country = 'Finland'
-console.log(country.replace('Fin', 'Noman'))       // Nomanland
+console.log(country.replace('Fin', 'Noman')) // Nomanland
 ```
 
 11. *charAt()*: Takes index and it returns the value at that index
@@ -612,7 +612,7 @@ string.charAt(index)
 
 ```js
 let string = '30 Days Of JavaScript'
-console.log(string.charAt(0))        // 3
+console.log(string.charAt(0)) // 3
 
 let lastIndex = string.length - 1
 console.log(string.charAt(lastIndex)) // t
@@ -626,7 +626,7 @@ string.charCodeAt(index)
 
 ```js
 let string = '30 Days Of JavaScript'
-console.log(string.charCodeAt(3))        // D ASCII number is 68
+console.log(string.charCodeAt(3)) // D ASCII number is 68
 
 let lastIndex = string.length - 1
 console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
@@ -647,7 +647,7 @@ console.log(string.indexOf('Days'))       // 3
 console.log(string.indexOf('days'))       // -1
 console.log(string.indexOf('a'))          // 4
 console.log(string.indexOf('JavaScript')) // 11
-console.log(string.indexOf('Script'))     //15
+console.log(string.indexOf('Script'))     // 15
 console.log(string.indexOf('script'))     // -1
 ```
 
@@ -691,15 +691,15 @@ string.startsWith(substring)
 ```js
 let string = 'Love is the best to in this world'
 
-console.log(string.startsWith('Love'))   // true
-console.log(string.startsWith('love'))   // false
-console.log(string.startsWith('world'))  // false
+console.log(string.startsWith('Love'))  // true
+console.log(string.startsWith('love'))  // false
+console.log(string.startsWith('world')) // false
 
 let country = 'Finland'
 
-console.log(country.startsWith('Fin'))   // true
-console.log(country.startsWith('fin'))   // false
-console.log(country.startsWith('land'))  //  false
+console.log(country.startsWith('Fin'))  // true
+console.log(country.startsWith('fin'))  // false
+console.log(country.startsWith('land')) // false
 ```
 
 17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
@@ -711,15 +711,15 @@ string.endsWith(substring)
 ```js
 let string = 'Love is the most powerful feeling in the world'
 
-console.log(string.endsWith('world'))         // true
-console.log(string.endsWith('love'))          // false
+console.log(string.endsWith('world'))        // true
+console.log(string.endsWith('love'))         // false
 console.log(string.endsWith('in the world')) // true
 
 let country = 'Finland'
 
-console.log(country.endsWith('land'))         // true
-console.log(country.endsWith('fin'))          // false
-console.log(country.endsWith('Fin'))          //  false
+console.log(country.endsWith('land')) // true
+console.log(country.endsWith('fin'))  // false
+console.log(country.endsWith('Fin'))  // false
 ```
 
 18. *search*: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or  a regular expression pattern.
@@ -730,16 +730,16 @@ string.search(substring)
 
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.search('love'))          // 2
-console.log(string.search(/javascript/gi))  // 7
+console.log(string.search('love'))         // 2
+console.log(string.search(/javascript/gi)) // 7
 ```
 
 19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
 
 ```js
 let string = 'love'
-let patternOne = /love/     // with out any flag
-let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
+let patternOne = /love/   // with out any flag
+let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
 ```
 
 Match syntax
@@ -760,7 +760,7 @@ console.log(string.match('love'))
 
 ```js
 let pattern = /love/gi
-console.log(string.match(pattern))   // ["love", "love", "love"]
+console.log(string.match(pattern)) // ["love", "love", "love"]
 ```
 
 Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
@@ -800,23 +800,23 @@ To check the data type of a certain variable we use the _typeof_ method.
 // Different javascript data types
 // Let's declare different data types
 
-let firstName = 'Asabeneh'      // string
-let lastName = 'Yetayeh'        // string
-let country = 'Finland'         // string
-let city = 'Helsinki'           // string
-let age = 250                   // number, it is not my real age, do not worry about it
-let job                         // undefined, because a value was not assigned
+let firstName = 'Asabeneh' // string
+let lastName = 'Yetayeh'   // string
+let country = 'Finland'    // string
+let city = 'Helsinki'      // string
+let age = 250              // number, it is not my real age, do not worry about it
+let job                    // undefined, because a value was not assigned
 
-console.log(typeof 'Asabeneh')  // string
-console.log(typeof firstName)   // string
-console.log(typeof 10)          // number
-console.log(typeof 3.14)        // number
-console.log(typeof true)        // boolean
-console.log(typeof false)       // boolean
-console.log(typeof NaN)         // number
-console.log(typeof job)         // undefined
-console.log(typeof undefined)   // undefined
-console.log(typeof null)        // object
+console.log(typeof 'Asabeneh') // string
+console.log(typeof firstName)  // string
+console.log(typeof 10)         // number
+console.log(typeof 3.14)       // number
+console.log(typeof true)       // boolean
+console.log(typeof false)      // boolean
+console.log(typeof NaN)        // number
+console.log(typeof job)        // undefined
+console.log(typeof undefined)  // undefined
+console.log(typeof null)       // object
 ```
 
 ### Changing Data Type (Casting)
