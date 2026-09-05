@@ -277,7 +277,7 @@ let city = 'Helsinki'
 let language = 'JavaScript'
 let job = 'teacher'
 let quote = "The saying,'Seeing is Believing' is not correct in 2020."
-let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
+let quoteWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
 ```
 
 ### String Concatenation
