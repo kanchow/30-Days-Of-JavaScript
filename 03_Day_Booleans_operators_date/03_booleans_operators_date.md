@@ -94,14 +94,14 @@ If we declare a variable and if we do not assign a value, the value will be unde
 
 ```js
 let firstName
-console.log(firstName) // not defined, because it is not assigned to a value yet
+console.log(firstName) // undefined, because it is not assigned to a value yet
 ```
 
 ## Null
 
 ```js
 let empty = null
-console.log(empty) // -> null , means no value
+console.log(empty) // null, means no value
 ```
 
 ## Operators

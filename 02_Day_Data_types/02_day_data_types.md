@@ -188,24 +188,24 @@ In JavaScript the Math Object provides a lot of methods to work with numbers.
 ```js
 const PI = Math.PI
 
-console.log(PI)                            // 3.141592653589793
+console.log(PI) // 3.141592653589793
 
 // Rounding to the closest number
 // if above .5 up if less 0.5 down rounding
 
-console.log(Math.round(PI))                // 3 to round values to the nearest number
+console.log(Math.round(PI))   // 3 to round values to the nearest number
 
-console.log(Math.round(9.81))              // 10
+console.log(Math.round(9.81)) // 10
 
-console.log(Math.floor(PI))                // 3 rounding down
+console.log(Math.floor(PI))   // 3 rounding down
 
-console.log(Math.ceil(PI))                 // 4 rounding up
+console.log(Math.ceil(PI))    // 4 rounding up
 
 console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
 
 console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
-const randNum = Math.random()              // creates random number between 0 to 0.999999
+const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
 
 // Let us create random number between 0 to 10
@@ -214,26 +214,26 @@ const num = Math.floor(Math.random () * 11) // creates random number between 0 a
 console.log(num)
 
 //Absolute value
-console.log(Math.abs(-10))      // 10
+console.log(Math.abs(-10)) // 10
 
 //Square root
-console.log(Math.sqrt(100))     // 10
+console.log(Math.sqrt(100)) // 10
 
-console.log(Math.sqrt(2))       // 1.4142135623730951
+console.log(Math.sqrt(2)) // 1.4142135623730951
 
 // Power
-console.log(Math.pow(3, 2))     // 9
+console.log(Math.pow(3, 2)) // 9
 
-console.log(Math.E)             // 2.718
+console.log(Math.E) // 2.718
 
 // Logarithm
 // Returns the natural logarithm with base E of x, Math.log(x)
-console.log(Math.log(2))        // 0.6931471805599453
-console.log(Math.log(10))       // 2.302585092994046
+console.log(Math.log(2))  // 0.6931471805599453
+console.log(Math.log(10)) // 2.302585092994046
 
 // Returns the natural logarithm of 2 and 10 respectively
-console.log(Math.LN2)           // 0.6931471805599453
-console.log(Math.LN10)          // 2.302585092994046
+console.log(Math.LN2)  // 0.6931471805599453
+console.log(Math.LN10) // 2.302585092994046
 
 // Trigonometry
 Math.sin(0)
@@ -254,10 +254,10 @@ let randomNum = Math.random() // generates 0 to 0.999...
 Now, let us see how we can use random() method to generate a random number between 0 and 10:
 
 ```js
-let randomNum = Math.random()      // generates 0 to 0.999
+let randomNum = Math.random() // generates 0 to 0.999
 let numBetweenZeroAndTen = randomNum * 11
 
-console.log(numBetweenZeroAndTen)      // this gives: min 0 and max 10.99
+console.log(numBetweenZeroAndTen) // this gives: min 0 and max 10.99
 
 let randomNumRoundToFloor = Math.floor(numBetweenZeroAndTen)
 console.log(randomNumRoundToFloor) // this gives between 0 and 10
@@ -392,7 +392,7 @@ To create a template strings, we use two back-ticks. We can inject data as expre
 **Example: 1**
 
 ```js
-console.log(`The sum of 2 and 3 is 5`)              // statically writing the data
+console.log(`The sum of 2 and 3 is 5`) // statically writing the data
 let a = 2
 let b = 3
 console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynamically
@@ -443,7 +443,7 @@ Everything in JavaScript is an object. A string is a primitive data type that me
 
 ```js
 let js = 'JavaScript'
-console.log(js.length)        // 10
+console.log(js.length) // 10
 let firstName = 'Asabeneh'
 console.log(firstName.length) // 8
 ```
@@ -458,18 +458,18 @@ Let us access different characters in 'JavaScript' string.
 let string = 'JavaScript'
 let firstLetter = string[0]
 
-console.log(firstLetter)           // J
+console.log(firstLetter) // J
 
-let secondLetter = string[1]       // a
+let secondLetter = string[1] // a
 let thirdLetter = string[2]
 let lastLetter = string[9]
 
-console.log(lastLetter)            // t
+console.log(lastLetter) // t
 
 let lastIndex = string.length - 1
 
-console.log(lastIndex)  // 9
-console.log(string[lastIndex])     // t
+console.log(lastIndex) // 9
+console.log(string[lastIndex]) // t
 ```
 
 3. *toUpperCase()*: this method changes the string to uppercase letters.
@@ -477,15 +477,15 @@ console.log(string[lastIndex])     // t
 ```js
 let string = 'JavaScript'
 
-console.log(string.toUpperCase())     // JAVASCRIPT
+console.log(string.toUpperCase()) // JAVASCRIPT
 
 let firstName = 'Asabeneh'
 
-console.log(firstName.toUpperCase())  // ASABENEH
+console.log(firstName.toUpperCase()) // ASABENEH
 
 let country = 'Finland'
 
-console.log(country.toUpperCase())    // FINLAND
+console.log(country.toUpperCase()) // FINLAND
 ```
 
 4. *toLowerCase()*: this method changes the string to lowercase letters.
@@ -493,7 +493,7 @@ console.log(country.toUpperCase())    // FINLAND
 ```js
 let string = 'JavasCript'
 
-console.log(string.toLowerCase())    // javascript
+console.log(string.toLowerCase()) // javascript
 
 let firstName = 'Asabeneh'
 
@@ -501,14 +501,14 @@ console.log(firstName.toLowerCase()) // asabeneh
 
 let country = 'Finland'
 
-console.log(country.toLowerCase())   // finland
+console.log(country.toLowerCase()) // finland
 ```
 
 5. *substr()*: It takes two arguments, the starting index and number of characters to slice.
 
 ```js
 let string = 'JavaScript'
-console.log(string.substr(4,6))   // Script
+console.log(string.substr(4,6)) // Script
 
 let country = 'Finland'
 console.log(country.substr(3, 4)) // land
@@ -519,15 +519,15 @@ console.log(country.substr(3, 4)) // land
 ```js
 let string = 'JavaScript'
 
-console.log(string.substring(0,4))     // Java
-console.log(string.substring(4,10))    // Script
-console.log(string.substring(4))       // Script
+console.log(string.substring(0,4))  // Java
+console.log(string.substring(4,10)) // Script
+console.log(string.substring(4))    // Script
 
 let country = 'Finland'
 
-console.log(country.substring(0, 3))   // Fin
-console.log(country.substring(3, 7))   // land
-console.log(country.substring(3))      // land
+console.log(country.substring(0, 3)) // Fin
+console.log(country.substring(3, 7)) // land
+console.log(country.substring(3))    // land
 ```
 
 7. *split()*: The split method splits a string at a specified place.
@@ -535,13 +535,13 @@ console.log(country.substring(3))      // land
 ```js
 let string = '30 Days Of JavaScript'
 
-console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
-console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
+console.log(string.split())    // Changes to an array -> ["30 Days Of JavaScript"]
+console.log(string.split(' ')) // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
 
 let firstName = 'Asabeneh'
 
-console.log(firstName.split())    // Change to an array - > ["Asabeneh"]
-console.log(firstName.split(''))  // Split to an array at each letter ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
+console.log(firstName.split())   // Change to an array - > ["Asabeneh"]
+console.log(firstName.split('')) // Split to an array at each letter ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
 
 let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
 
