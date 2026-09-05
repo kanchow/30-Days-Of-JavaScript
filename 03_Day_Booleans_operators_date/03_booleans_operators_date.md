@@ -64,8 +64,8 @@ let isLightOn = true
 let isRaining = false
 let isHungry = false
 let isMarried = true
-let trueValue = 4 > 3   // true
-let falseValue = 4 < 3  // false
+let trueValue = 4 > 3  // true
+let falseValue = 4 < 3 // false
 ```
 
 We agreed that boolean values are either true or false.
@@ -146,22 +146,22 @@ console.log(sum, diff, mult, div, remainder, powerOf) // 7, 1, 12, 1.33, 1, 64
 
 ```js
 const PI = 3.14
-let radius = 100          // length in meter
+let radius = 100 // length in meter
 
 //Let us calculate area of a circle
 const areaOfCircle = PI * radius * radius
-console.log(areaOfCircle)  // 31400 m
+console.log(areaOfCircle) // 31400 m
 
 
-const gravity = 9.81      // in m/s2
-let mass = 72             // in Kilogram
+const gravity = 9.81 // in m/s2
+let mass = 72        // in Kilogram
 
 // Let us calculate weight of an object
 const weight = mass * gravity
-console.log(weight)        // 706.32 N(Newton)
+console.log(weight) // 706.32 N(Newton)
 
-const boilingPoint = 100  // temperature in oC, boiling point of water
-const bodyTemp = 37       // body temperature in oC
+const boilingPoint = 100 // temperature in oC, boiling point of water
+const bodyTemp = 37      // body temperature in oC
 
 
 // Concatenating string with numbers using string interpolation
@@ -208,13 +208,13 @@ console.log(NaN == NaN)         // false, not equal
 console.log(NaN === NaN)        // false
 console.log(typeof NaN)         // number
 
-console.log('mango'.length == 'avocado'.length)  // false
-console.log('mango'.length != 'avocado'.length)  // true
-console.log('mango'.length < 'avocado'.length)   // true
-console.log('milk'.length == 'meat'.length)      // true
-console.log('milk'.length != 'meat'.length)      // false
-console.log('tomato'.length == 'potato'.length)  // true
-console.log('python'.length > 'dragon'.length)   // false
+console.log('mango'.length == 'avocado'.length) // false
+console.log('mango'.length != 'avocado'.length) // true
+console.log('mango'.length < 'avocado'.length)  // true
+console.log('milk'.length == 'meat'.length)     // true
+console.log('milk'.length != 'meat'.length)     // false
+console.log('tomato'.length == 'potato'.length) // true
+console.log('python'.length > 'dragon'.length)  // false
 ```
 
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
@@ -233,23 +233,23 @@ The ! operator negates true to false and false to true.
 ```js
 // && ampersand operator example
 
-const check = 4 > 3 && 10 > 5         // true && true -> true
-const check = 4 > 3 && 10 < 5         // true && false -> false
-const check = 4 < 3 && 10 < 5         // false && false -> false
+const check = 4 > 3 && 10 > 5 // true && true -> true
+const check = 4 > 3 && 10 < 5 // true && false -> false
+const check = 4 < 3 && 10 < 5 // false && false -> false
 
 // || pipe or operator, example
 
-const check = 4 > 3 || 10 > 5         // true  || true -> true
-const check = 4 > 3 || 10 < 5         // true  || false -> true
-const check = 4 < 3 || 10 < 5         // false || false -> false
+const check = 4 > 3 || 10 > 5 // true  || true -> true
+const check = 4 > 3 || 10 < 5 // true  || false -> true
+const check = 4 < 3 || 10 < 5 // false || false -> false
 
 //! Negation examples
 
-let check = 4 > 3                     // true
-let check = !(4 > 3)                  //  false
+let check = 4 > 3    // true
+let check = !(4 > 3) //  false
 let isLightOn = true
-let isLightOff = !isLightOn           // false
-let isMarried = !false                // true
+let isLightOff = !isLightOn // false
+let isMarried = !false      // true
 ```
 
 ### Increment Operator
@@ -260,16 +260,16 @@ In JavaScript we use the increment operator to increase a value stored in a vari
 
 ```js
 let count = 0
-console.log(++count)        // 1
-console.log(count)          // 1
+console.log(++count) // 1
+console.log(count)   // 1
 ```
 
 1. Post-increment
 
 ```js
 let count = 0
-console.log(count++)        // 0
-console.log(count)          // 1
+console.log(count++) // 0
+console.log(count)   // 1
 ```
 
 We use most of the time post-increment. At least you should remember how to use post-increment operator.
@@ -283,7 +283,7 @@ In JavaScript we use the decrement operator to decrease a value stored in a vari
 ```js
 let count = 0
 console.log(--count) // -1
-console.log(count)  // -1
+console.log(count)   // -1
 ```
 
 2. Post-decrement
@@ -469,14 +469,14 @@ This method give time in milliseconds starting from January 1, 1970. It is also 
 1. Using _getTime()_
 
 ```js
-const now = new Date() //
+const now = new Date()
 console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
 1. Using _Date.now()_
 
 ```js
-const allSeconds = Date.now() //
+const allSeconds = Date.now()
 console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 
 const timeInSeconds = new Date().getTime()
