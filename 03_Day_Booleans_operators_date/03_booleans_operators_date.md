@@ -64,7 +64,7 @@ let isLightOn = true
 let isRaining = false
 let isHungry = false
 let isMarried = true
-let truValue = 4 > 3    // true
+let trueValue = 4 > 3    // true
 let falseValue = 4 < 3  // false
 ```
 
@@ -150,7 +150,7 @@ let radius = 100          // length in meter
 
 //Let us calculate area of a circle
 const areaOfCircle = PI * radius * radius
-console.log(areaOfCircle)  //  314 m
+console.log(areaOfCircle)  // 31400 m
 
 
 const gravity = 9.81      // in m/s2
@@ -488,11 +488,11 @@ Let us format these values to a human readable time format.
 
 ```js
 const now = new Date()
-const year = now.getFullYear() // return year
-const month = now.getMonth() + 1 // return month(0 - 11)
-const date = now.getDate() // return date (1 - 31)
-const hours = now.getHours() // return number (0 - 23)
-const minutes = now.getMinutes() // return number (0 -59)
+const year = now.getFullYear()   // return year
+const month = now.getMonth() + 1 // return month (1 - 12)
+const date = now.getDate()       // return date (1 - 31)
+const hours = now.getHours()     // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 - 59)
 
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
