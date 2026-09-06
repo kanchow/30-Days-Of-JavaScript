@@ -800,9 +800,10 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
-20. *repeat()*: It takes a number as argument and returns the repeated version of the string.
+20. *repeat()*: Takes a number as an argument and returns the repeated version of the string.
 
 ```js
+// Syntax
 string.repeat(n)
 ```
 
