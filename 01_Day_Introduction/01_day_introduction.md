@@ -54,13 +54,13 @@
 
 ## Introduction
 
-**A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers.
+The **30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers.
 Welcome to JavaScript.
 JavaScript is the language of the web.
 I enjoy using and teaching JavaScript and I hope you will do so too.
 
-In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**, **_machine learning_** and **_AI_**.
+In this step‑by‑step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
+JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, and games_** and nowadays JavaScript can be used for **server-side programming**, **_machine learning_** and **_AI_**.
 
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading programming language for the last ten years and is the most used programming language on GitHub.
 
@@ -87,7 +87,7 @@ Install [node.js](https://nodejs.org/en/).
 
 ![Node download](../images/download_node.png)
 
-After downloading double-click and install
+After downloading, double-click and install
 
 ![Install node](../images/install_node.png)
 
@@ -98,7 +98,7 @@ asabeneh $ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using Node version 12.14.0, but feel free to use the latest LTS version.
+When writing this tutorial, I was using Node version 12.14.0, but feel free to use the latest LTS version.
 
 ### Browser
 
@@ -114,7 +114,7 @@ We can write small JavaScript code on the browser console, but we do not use the
 
 #### Opening Google Chrome Console
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut.
+You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_, or by using a keyboard shortcut.
 I prefer using shortcuts.
 
 ![Opening chrome](../images/opening_developer_tool.png)
@@ -132,7 +132,7 @@ Ctrl+Shift+J
 ![Opening console](../images/opening_chrome_console_shortcut.png)
 
 After you open the Google Chrome console, try to explore the marked buttons.
-We will spend most of the time on the Console.
+We will spend most of our time on the Console.
 The Console is the place where your JavaScript code goes.
 The V8 engine in Google Chrome converts your JavaScript code to machine code.
 Let us write some JavaScript code on the Google Chrome console:
@@ -155,8 +155,8 @@ Ctrl+Shift+I
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**.
-We passed an argument as input data, and the function displays the output.
+To write our first JavaScript code, we use the built-in function **console.log()**.
+We pass an argument as input data, and the function displays the output.
 We passed `'Hello, World!'` as input data or argument in the console.log() function.
 
 ```js
@@ -186,7 +186,7 @@ You wrote your first JavaScript code using _`console.log()`_.
 We can add comments to our code.
 Comments are very important to make code more readable and to leave remarks in our code.
 JavaScript does not execute the comment part of our code.
-In JavaScript, any text line starting with `//` in JavaScript is a comment, and anything between `/*` and `*/` is a multi-line comment.
+In JavaScript, any text line starting with `//` is a comment, and anything between `/*` and `*/` is a multi-line comment.
 
 **Example: Single Line Comment**
 
@@ -223,7 +223,7 @@ For now, let us see syntax errors.
 I made a deliberate mistake.
 As a result, the console raises syntax errors.
 Actually, the error message is very informative.
-It informs what type of mistake was made.
+It informs us what type of mistake was made.
 By reading the error feedback guideline, we can correct the syntax and fix the problem.
 The process of identifying and removing errors from a program is called debugging.
 Let us fix the errors:
@@ -246,7 +246,7 @@ console.log(`Hello, World!`)
 
 #### Arithmetic
 
-Now, let us practice writing more JavaScript code using _`console.log()`_ on Google Chrome console for number data types.
+Now, let us practice writing more JavaScript code using _`console.log()`_ on Google Chrome console for numbers.
 In addition to the text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
@@ -277,11 +277,11 @@ I would recommend [downloading Visual Studio Code](https://code.visualstudio.com
 
 ![Vscode](../images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+If you have installed Visual Studio Code, let us start using it.
 
 #### How to Use Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon.
+Open Visual Studio Code by double-clicking its icon.
 When you open it, you will get this kind of interface.
 Try to interact with the labeled icons.
 
@@ -311,7 +311,7 @@ The following sections show different ways of adding JavaScript code to your web
 
 ### Inline Script
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder.
+Create a project folder on your desktop or in any location, name it 30DaysOfJS, and create an **_`index.html`_** file in the project folder.
 Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
 
 ```html
@@ -375,7 +375,8 @@ Open the browser console to see the output from the `console.log()`.
 Similar to the internal script, the external script link can be in the header or body, but it is preferred to put it in the body.
 First, we should create an external JavaScript file with .js extension.
 All files ending with .js extension are JavaScript files.
-Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Create a file named introduction.js inside your project directory.
+Write the following code, then link this .js file at the bottom of the body.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
@@ -441,8 +442,8 @@ It is very important to remember this.
 
 ## Introduction to Data types
 
-In JavaScript and also other programming languages, there are different data types.
-The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+In JavaScript, as in other programming languages, there are different data types.
+The following are JavaScript primitive data types: _String, Number, Boolean, undefined, null_, and _Symbol_.
 
 ### Numbers
 
@@ -648,7 +649,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declared in one line separated by comma, however I recommend to use a separate line to make code more readable
+// Variables can also be declared in one line separated by commas; however, I recommend using separate lines to make the code more readable.
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -677,7 +678,7 @@ Now do some exercises for your brain and muscle.
 7. Declare four variables with assigned values.
 8. Declare variables to store your first name, last name, marital status, country and age in multiple lines.
 9. Declare variables to store your first name, last name, marital status, country and age in a single line.
-10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
+10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log them to the browser console.
 
 ```sh
 I am 25 years old.
