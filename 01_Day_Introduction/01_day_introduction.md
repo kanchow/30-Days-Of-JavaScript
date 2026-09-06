@@ -30,7 +30,7 @@
         - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
         - [Comments](#comments)
         - [Syntax](#syntax)
-      - [Arithmetics](#arithmetics)
+      - [Arithmetic](#arithmetic)
     - [Code Editor](#code-editor)
       - [Installing Visual Studio Code](#installing-visual-studio-code)
       - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
@@ -77,7 +77,7 @@ You need only:
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet.
+I believe you have the motivation and a strong desire to be a developer, a computer and an Internet connection.
 If you have those, then you have everything to get started.
 
 ### Install Node.js
@@ -244,7 +244,7 @@ console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### Arithmetic
 
 Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
 In addition to the text, we can also do mathematical calculations using JavaScript.
