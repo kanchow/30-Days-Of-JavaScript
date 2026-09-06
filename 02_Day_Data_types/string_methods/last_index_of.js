@@ -1,4 +1,4 @@
-// lastIndexOf(): Takes a substring.
+// lastIndexOf(): Takes a substring as an argument.
 // If the substring exists in a string, it returns the last position of the substring; otherwise it returns -1.
 
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'

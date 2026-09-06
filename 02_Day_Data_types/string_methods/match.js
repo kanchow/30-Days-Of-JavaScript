@@ -4,7 +4,7 @@
 // It starts with a / sign and ends with a / sign.
 let string = 'love'
 let patternOne = /love/   // without any flag
-let patternTwo = /love/gi // g means to search the whole text, i means case-insensitive.
+let patternTwo = /love/gi // g means "search the whole text", and i makes it case-insensitive.
 
 /*
   Syntax:
@@ -23,7 +23,7 @@ console.log(string.match('love'))
 let pattern = /love/gi
 console.log(string.match(pattern)) // ["love", "love", "love"]
 
-// Let us extract numbers from text using a regular expression.
+// Let us extract numbers from the text using a regular expression.
 // This is not the regular expression section, so don't panic.
 
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I\'m super excited to start this challenge.'

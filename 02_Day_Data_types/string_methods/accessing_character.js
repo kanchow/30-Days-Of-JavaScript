@@ -1,4 +1,4 @@
-// Let us access the first character of 'JavaScript' string.
+// Let us access the first character of the 'JavaScript' string.
 
 let string = 'JavaScript'
 

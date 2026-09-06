@@ -1,4 +1,4 @@
-// indexOf(): Takes a substring.
+// indexOf(): Takes a substring as an argument.
 // If the substring exists in a string, it returns the first position of the substring; otherwise it returns -1.
 
 /*
