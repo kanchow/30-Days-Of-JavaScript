@@ -34,7 +34,7 @@
 		- [String Methods](#string-methods)
 	- [Checking Data Types and Casting](#checking-data-types-and-casting)
 		- [Checking Data Types](#checking-data-types)
-		- [Changing Data Type (Casting)](#changing-data-type-casting)
+		- [Changing Data Types (Casting)](#changing-data-types-casting)
 			- [String to Int](#string-to-int)
 			- [String to Float](#string-to-float)
 			- [Float to Int](#float-to-int)
