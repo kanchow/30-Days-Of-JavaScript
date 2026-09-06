@@ -597,7 +597,7 @@ The first and second variables in the list follow the lower camelCase convention
 Throughout this course, we will use camelCase (camelWithOneHump) for variables.
 We use UpperCamelCase (CamelWithTwoHumps) for class names; we'll cover classes and objects in a later section.
 
-Example of invalid variables:
+**Examples of invalid variables:**
 
 ```js
 first-name
@@ -617,7 +617,7 @@ let nameOfVariable = value
 The nameOfVariable is the name that stores different data of value.
 See below for detailed examples.
 
-**Examples of declared variables**
+**Examples of declared variables:**
 
 ```js
 // Declare different variables of different data types
