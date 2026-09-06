@@ -9,7 +9,7 @@
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>January, 2020</small>
+  <small>January 2020</small>
   </sub>
 </div>
 
@@ -68,7 +68,7 @@ Nowadays, it is also used for **server-side programming**, **_machine learning_*
 ## Requirements
 
 No prior knowledge of programming is required to follow this challenge.
-You need only:
+You only need:
 
 1. Motivation
 2. A computer
@@ -78,21 +78,21 @@ You need only:
 
 ## Setup
 
-I believe you have the motivation and a strong desire to be a developer, a computer and an Internet connection.
+I believe you have the motivation, a strong desire to be a developer, a computer, and an Internet connection.
 If you have those, then you have everything to get started.
 
 ### Install Node.js
 
 You may not need Node.js right now but you may need it later.
-Install [node.js](https://nodejs.org/en/).
+Install [Node.js](https://nodejs.org/en/).
 
 ![Node download](../images/download_node.png)
 
 After downloading, double-click the installer and install it.
 
-![Install node](../images/install_node.png)
+![Install Node](../images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+We can check if Node is installed on our local machine by opening our device terminal or command prompt.
 
 ```sh
 asabeneh $ node -v
@@ -268,7 +268,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 ### Code Editor
 
 We can write our code on the browser console, but it is not suitable for bigger projects.
-In a real working environment, developers use different code editors to write their codes.
+In a real working environment, developers use different code editors to write their code.
 In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
 
 #### Installing Visual Studio Code
@@ -374,7 +374,7 @@ Open the browser console to see the output from the `console.log()`.
 ### External Script
 
 Similar to the internal script, the external script link can be in the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension.
+First, we should create an external JavaScript file with a .js extension.
 All files ending with the .js extension are JavaScript files.
 Create a file named introduction.js inside your project directory.
 Write the following code, then link this .js file at the bottom of the body.
@@ -566,7 +566,7 @@ For now, the above explanation is enough.
 A valid JavaScript variable name must follow the following rules:
 
 - A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
+- A JavaScript variable name does not allow special characters except the dollar sign and underscore.
 - A JavaScript variable name follows a camelCase convention.
 - A JavaScript variable name should not have space between words.
 
