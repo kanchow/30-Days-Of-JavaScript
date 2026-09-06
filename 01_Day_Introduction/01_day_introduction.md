@@ -39,7 +39,7 @@
     - [Internal Script](#internal-script)
     - [External Script](#external-script)
     - [Multiple External Scripts](#multiple-external-scripts)
-  - [Introduction to Data types](#introduction-to-data-types)
+  - [Introduction to Data Types](#introduction-to-data-types)
     - [Numbers](#numbers)
     - [Strings](#strings)
     - [Booleans](#booleans)
@@ -209,7 +209,7 @@ In JavaScript, any text line starting with `//` is a comment, and anything betwe
 ##### Syntax
 
 Programming languages are similar to human languages.
-English or many other languages use words, phrases, sentences, compound sentences and other structures to convey a meaningful message.
+English and many other languages use words, phrases, sentences, compound sentences and other structures to convey a meaningful message.
 The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_.
 The technical definition of syntax is the structure of statements in a computer language.
 Programming languages have syntax.
@@ -220,11 +220,11 @@ For now, let us see syntax errors.
 
 ![Error](../images/raising_syntax_error.png)
 
-I made a deliberate mistake.
-As a result, the console raises syntax errors.
+I deliberately made a mistake.
+As a result, the console displays syntax errors.
 Actually, the error message is very informative.
 It informs us what type of mistake was made.
-By reading the error feedback guideline, we can correct the syntax and fix the problem.
+By reading the error feedback, we can correct the syntax and fix the problem.
 The process of identifying and removing errors from a program is called debugging.
 Let us fix the errors:
 
@@ -251,7 +251,7 @@ In addition to the text, we can also do mathematical calculations using JavaScri
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
 However, it is included in this introduction because most of this challenge will take place in a text editor where the usage of the function would be mandatory.
-You can play around directly with instructions on the console.
+You can play around directly with code on the console.
 
 ![Arithmetic](../images/arithmetic.png)
 
@@ -266,7 +266,7 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our code on the browser console, but it won't be for bigger projects.
+We can write our code on the browser console, but it is not suitable for bigger projects.
 In a real working environment, developers use different code editors to write their codes.
 In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
 
@@ -348,7 +348,7 @@ First, let us write in the head part of the page.
 ```
 
 This is how we write an internal script most of the time.
-Writing the JavaScript code in the body section is the most preferred option.
+Writing the JavaScript code in the body section is the preferred option.
 Open the browser console to see the output from the `console.log()`.
 
 ```html
@@ -374,7 +374,7 @@ Open the browser console to see the output from the `console.log()`.
 
 Similar to the internal script, the external script link can be in the header or body, but it is preferred to put it in the body.
 First, we should create an external JavaScript file with .js extension.
-All files ending with .js extension are JavaScript files.
+All files ending with the .js extension are JavaScript files.
 Create a file named introduction.js inside your project directory.
 Write the following code, then link this .js file at the bottom of the body.
 
@@ -440,7 +440,7 @@ It is very important to remember this.
 
 ![Multiple Script](../images/multiple_script.png)
 
-## Introduction to Data types
+## Introduction to Data Types
 
 In JavaScript, as in other programming languages, there are different data types.
 The following are JavaScript primitive data types: _String, Number, Boolean, undefined, null_, and _Symbol_.
@@ -475,7 +475,7 @@ A collection of one or more characters between two single quotes, double quotes,
 
 ### Booleans
 
-A boolean value is either True or False.
+A boolean value is either true or false.
 Any comparisons return a boolean value, which is either true or false.
 
 A boolean data type is either a true or false value.
@@ -551,7 +551,7 @@ There are two ways of commenting:
 Variables are _containers_ of data.
 Variables are used to _store_ data in a memory location.
 When a variable is declared, a memory location is reserved.
-When a variable is assigned to a value (data), the memory space will be filled with that data.
+When a variable is assigned a value (data), the memory space will be filled with that data.
 To declare a variable, we use _var_, _let_, or _const_ keywords.
 
 For a variable that changes over time, we use _let_.
