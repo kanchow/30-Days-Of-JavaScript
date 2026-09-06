@@ -81,7 +81,8 @@ Once a primitive data type is created we cannot modify it.
 let word = 'JavaScript'
 ```
 
-If we try to modify the string stored in variable *word*, JavaScript should raise an error.
+If we try to modify the string stored in variable *word*, the assignment will have no effect (the string remains unchanged).
+In strict mode, it may throw a TypeError, but generally strings are immutable and cannot be modified by index assignment.
 Any data type under a single quote, double quote, or backtick quote is a string data type.
 
 ```js
@@ -575,19 +576,17 @@ console.log(countries.split(', ')) // ["Finland", "Sweden", "Norway", "Denmark"
 
 ```js
 let string = '   30 Days Of JavaScript   '
-
 console.log(string)
 console.log(string.trim())
 
 let firstName = ' Asabeneh '
-
 console.log(firstName)
 console.log(firstName.trim()) // still removes spaces at the beginning and the end of the string
 ```
 
 ```sh
-   30 Days Of JavasCript   
-30 Days Of JavasCript
+   30 Days Of JavaScript   
+30 Days Of JavaScript
   Asabeneh 
 Asabeneh
 ```
