@@ -215,7 +215,7 @@ The English meaning of syntax is _the arrangement of words and phrases to create
 The technical definition of syntax is the structure of statements in a computer language.
 Programming languages have syntax.
 JavaScript is a programming language, and like other programming languages, it has its own syntax.
-If we do not write code with correct syntax, it will raise different types of errors.
+If we do not write code with correct syntax, it will throw different types of errors.
 We will explore different kinds of JavaScript errors later.
 For now, let us see syntax errors.
 
@@ -224,7 +224,7 @@ For now, let us see syntax errors.
 I deliberately made a mistake.
 As a result, the console displays syntax errors.
 Actually, the error message is very informative.
-It informs us what type of mistake was made.
+It informs us of what type of mistake was made.
 By reading the error feedback, we can correct the syntax and fix the problem.
 The process of identifying and removing errors from a program is called debugging.
 Let us fix the errors:
@@ -269,12 +269,12 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 We can write our code on the browser console, but it is not suitable for bigger projects.
 In a real working environment, developers use different code editors to write their code.
-In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
+In this 30-day JavaScript challenge, we will be using Visual Studio Code.
 
 #### Installing Visual Studio Code
 
 Visual Studio Code is a very popular open-source text editor.
-I would recommend [downloading Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+I would recommend [downloading Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to use what you have.
 
 ![Vscode](../images/vscode.png)
 
