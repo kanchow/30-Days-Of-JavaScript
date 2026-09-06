@@ -99,14 +99,14 @@ In addition to this, if a function is not returning the value, it will be undefi
 
 ```js
 let firstName
-console.log(firstName) // Undefined, because it is not assigned to a value yet.
+console.log(firstName) // undefined, because it is not assigned to a value yet.
 ```
 
 ## Null
 
 ```js
 let empty = null
-console.log(empty) // Null, means no value.
+console.log(empty) // null, means no value.
 ```
 
 ## Operators
