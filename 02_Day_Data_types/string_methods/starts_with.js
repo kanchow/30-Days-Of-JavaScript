@@ -1,6 +1,12 @@
-// startsWith: it takes a substring as an argument and it checks if the string starts with that specified substring.
+// startsWith(): Takes a substring as an argument and checks if the string starts with that specified substring.
 // It returns a boolean (true or false).
-// string.startsWith(substring)
+
+/*
+  Syntax:
+
+  string.startsWith(substring)
+*/
+
 let string = 'Love is the best to in this world'
 console.log(string.startsWith('Love'))  // true
 console.log(string.startsWith('love'))  // false

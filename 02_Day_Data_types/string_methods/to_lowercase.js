@@ -1,7 +1,10 @@
-// toLowerCase(): this method changes the string to lowercase letters.
+// toLowerCase(): Changes the string to lowercase letters.
+
 let string = 'JavasCript'
-console.log(string.toLowerCase())    // javascript
+console.log(string.toLowerCase()) // javascript
+
 let firstName = 'Asabeneh'
 console.log(firstName.toLowerCase()) // asabeneh
+
 let country = 'Finland'
-console.log(country.toLowerCase())   // finland
+console.log(country.toLowerCase()) // finland
