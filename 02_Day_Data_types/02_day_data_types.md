@@ -844,7 +844,7 @@ console.log(typeof undefined)  // undefined
 console.log(typeof null)       // object
 ```
 
-### Changing Data Type (Casting)
+### Changing Data Types (Casting)
 
 - Casting: Converting one data type to another data type.
   We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _String()_
@@ -927,7 +927,7 @@ Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 2: Exercises
 
-### Exercise: Level 1
+### Exercises: Level 1
 
 1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__.
@@ -955,7 +955,7 @@ Now do some exercises for your brain and for your muscle.
 24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'.
 25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times.
 
-### Exercise: Level 2
+### Exercises: Level 2
 
 1. Using console.log() print out the following statement:
 
