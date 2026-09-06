@@ -939,9 +939,9 @@ Now do some exercises for your brain and for your muscle.
 14. What is the character code of J in '30 Days Of JavaScript' string using __charCodeAt()__.
 15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days Of JavaScript.
 16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days Of JavaScript.
-17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__.
-18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__.
-19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__.
+17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
+18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
+19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
 21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true.
 22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true.
@@ -981,12 +981,12 @@ Now do some exercises for your brain and for your muscle.
     5 1 5 25 125
     ```
 
-12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__.
+12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 
 ### Exercises: Level 3
 
 1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word __love__ in this sentence.
-2. Use __match()__ to count the number of all __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__.
+2. Use __match()__ to count the number of all __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
 
     ```js
