@@ -558,7 +558,7 @@ For a variable that changes at a different time, we use _let_.
 If the data does not change at all, we use _const_.
 For example, PI, country name, gravity do not change, and we can use _const_.
 We will not use var in this challenge and I don't recommend you to use it.
-It is an error-prone way of declaring a variable; it has lots of leaks.
+It is an error-prone way of declaring a variable; it has a lot of leaks.
 We will talk more about var, let, and const in detail in other sections (scope).
 For now, the above explanation is enough.
 
@@ -593,9 +593,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follow the camelCase convention of declaring in JavaScript.
-In this material, we will use camelCase variables (camelWithOneHump).
-We use CamelCase (CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+The first and second variables in the list follow the lower camelCase convention in JavaScript.
+Throughout this course, we will use camelCase (camelWithOneHump) for variables.
+We use UpperCamelCase (CamelWithTwoHumps) for class names; we'll cover classes and objects in a later section.
 
 Example of invalid variables:
 
