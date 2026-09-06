@@ -261,7 +261,7 @@ Now, let us see how we can use random() method to generate a random number betwe
 let randomNum = Math.random() // generates 0 (inclusive) to 1 (exclusive)
 let numBetweenZeroAndTen = randomNum * 11
 
-console.log(numBetweenZeroAndTen) // this gives: min 0 and max 10.99
+console.log(numBetweenZeroAndTen) // this gives: min 0 and max 10.999...
 
 let randomNumRoundToFloor = Math.floor(numBetweenZeroAndTen)
 console.log(randomNumRoundToFloor) // this gives between 0 and 10
