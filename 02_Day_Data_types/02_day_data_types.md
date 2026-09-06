@@ -269,7 +269,7 @@ console.log(randomNumRoundToFloor) // this gives between 0 and 10
 
 ## Strings
 
-Strings are texts, which are under **_single_**, **_double_**, **_backtick_** quote.
+Strings are texts, which are under **_single_**, **_double_**, or **_backtick_** quote.
 To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
 Let's see some examples of strings:
 
