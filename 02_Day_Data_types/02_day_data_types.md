@@ -157,7 +157,6 @@ Two objects are only strictly equal if they refer to the same underlying object.
 ```js
 let nums = [1, 2, 3]
 let numbers = nums
-
 console.log(nums == numbers) // true
 
 let userOne = {
@@ -165,9 +164,7 @@ let userOne = {
   role: 'teaching',
   country: 'Finland'
 }
-
 let userTwo = userOne
-
 console.log(userOne == userTwo) // true
 ```
 
