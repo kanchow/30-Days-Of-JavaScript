@@ -165,7 +165,7 @@ console.log('Hello, World!')
 ##### Console.log with Multiple Arguments
 
 The **`console.log()`** function can take multiple parameters separated by commas.
-The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+The syntax looks like as follows: **`console.log(param1, param2, param3)`**
 
 ![console log multiple arguments](../images/console_log_multipl_arguments.png)
 
@@ -177,7 +177,8 @@ console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 
 As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
 
-Congratulations! You wrote your first JavaScript code using _`console.log()`_.
+Congratulations!
+You wrote your first JavaScript code using _`console.log()`_.
 
 ##### Comments
 
@@ -189,8 +190,8 @@ In JavaScript, any text line starting with // in JavaScript is a comment, and an
 **Example: Single Line Comment**
 
 ```js
-// This is the first comment  
-// This is the second comment  
+// This is the first comment
+// This is the second comment
 // I am a single line comment
 ```
 
@@ -198,9 +199,9 @@ In JavaScript, any text line starting with // in JavaScript is a comment, and an
 
 ```js
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+This is a multiline comment
+ Multiline comments can take multiple lines
+ JavaScript is the language of the web
  */
 ```
 
@@ -210,15 +211,18 @@ Programming languages are similar to human languages.
 English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message.
 The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_.
 The technical definition of syntax is the structure of statements in a computer language.
-Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax.
+Programming languages have syntax.
+JavaScript is a programming language and like other programming languages it has its own syntax.
 If we do not write a syntax that JavaScript understands, it will raise different types of errors.
 We will explore different kinds of JavaScript errors later.
 For now, let us see syntax errors.
 
 ![Error](../images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors.
-Actually, the syntax is very informative. It informs what type of mistake was made.
+I made a deliberate mistake.
+As a result, the console raises syntax errors.
+Actually, the syntax is very informative.
+It informs what type of mistake was made.
 By reading the error feedback guideline, we can correct the syntax and fix the problem.
 The process of identifying and removing errors from a program is called debugging.
 Let us fix the errors:
@@ -275,7 +279,8 @@ If you installed Visual Studio Code, let us start using it.
 
 #### How to Use Visual Studio Code
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface.
+Open the Visual Studio Code by double-clicking its icon.
+When you open it, you will get this kind of interface.
 Try to interact with the labeled icons.
 
 ![Vscode ui](../images/vscode_ui.png)
@@ -397,7 +402,7 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
+    <!-- JavaScript external link could be in the header or in the body -->
     <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
     <script src="introduction.js"></script>
   </body>
@@ -428,7 +433,8 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Your main.js file should be below all other scripts_.
+It is very important to remember this.
 
 ![Multiple Script](../images/multiple_script.png)
 
@@ -499,7 +505,8 @@ let emptyValue = null
 
 ## Checking Data Types
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+To check the data type of a certain variable, we use the **typeof** operator.
+See the following example.
 
 ```js
 console.log(typeof 'Asabeneh') // string
@@ -602,7 +609,8 @@ Following the variable name, we write an equal sign (assignment operator), and a
 let nameOfVariable = value
 ```
 
-The nameOfVariable is the name that stores different data of value. See below for detailed examples.
+The nameOfVariable is the name that stores different data of value.
+See below for detailed examples.
 
 **Examples of declared variables**
 
@@ -649,7 +657,8 @@ When you run _index.html_ file in the 01-Day folder you should get this:
 
 ![Day one](../images/day_1.png)
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness.
+🌕 You are amazing!
+You have just completed day 1 challenge and you are on your way to greatness.
 Now do some exercises for your brain and muscle.
 
 # 💻 Day 1: Exercises
@@ -658,7 +667,8 @@ Now do some exercises for your brain and muscle.
 2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_.
 3. Write a multiline comment which says, _comments can make code readable, easy to reuse and informative_.
 4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types.
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types. Check the data type of each variable.
+5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types.
+   Check the data type of each variable.
 6. Declare four variables without assigning values.
 7. Declare four variables with assigned values.
 8. Declare variables to store your first name, last name, marital status, country and age in multiple lines.
