@@ -9,9 +9,9 @@ let isMarried = true
 
 // Declaring variables with number values
 
-const gravity = 9.81     // earth gravity in m/s2
+const gravity = 9.81     // earth gravity in m/s^2
 const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14          // geometrical constant
+const PI = 3.14          // geometric constant
 
 // Variables can also be declared in one line, separated by commas
 
