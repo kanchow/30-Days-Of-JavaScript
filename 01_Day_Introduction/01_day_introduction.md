@@ -200,10 +200,10 @@ In JavaScript, any text line starting with `//` in JavaScript is a comment, and 
 
 ```js
 /*
-   This is a multiline comment
-   Multiline comments can take multiple lines
-   JavaScript is the language of the web
- */
+  This is a multiline comment
+  Multiline comments can take multiple lines
+  JavaScript is the language of the web
+*/
 ```
 
 ##### Syntax
@@ -450,7 +450,7 @@ The following are JavaScript primitive data types: _String, Number, Boolean, und
   Example:
   ... -3, -2, -1, 0, 1, 2, 3 ...
 - Floating-point numbers: Decimal number  
-  Example
+  Example:
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 ### Strings
@@ -555,7 +555,8 @@ For a variable that changes at a different time, we use _let_.
 If the data does not change at all, we use _const_.
 For example, PI, country name, gravity do not change, and we can use _const_.
 We will not use var in this challenge and I don't recommend you to use it.
-It is an error-prone way of declaring a variable; it has lots of leaks. We will talk more about var, let, and const in detail in other sections (scope).
+It is an error-prone way of declaring a variable; it has lots of leaks.
+We will talk more about var, let, and const in detail in other sections (scope).
 For now, the above explanation is enough.
 
 A valid JavaScript variable name must follow the following rules:
@@ -590,20 +591,20 @@ year_2020
 ```
 
 The first and second variables on the list follow the camelCase convention of declaring in JavaScript.
-In this material, we will use camelCase variables(camelWithOneHump).
-We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+In this material, we will use camelCase variables (camelWithOneHump).
+We use CamelCase (CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
 
 Example of invalid variables:
 
 ```js
-  first-name
-  1_num
-  num_#_1
+first-name
+1_num
+num_#_1
 ```
 
 Let us declare variables with different data types.
 To declare a variable, we need to use _let_ or _const_ keyword before the variable name.
-Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Following the variable name, we write an equal sign (assignment operator), and a value (assigned data).
 
 ```js
 // Syntax
