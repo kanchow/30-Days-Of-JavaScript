@@ -102,7 +102,8 @@ When making this tutorial I was using Node version 12.14.0, but feel free to use
 
 ### Browser
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+There are many browsers out there.
+However, I strongly recommend Google Chrome.
 
 #### Installing Google Chrome
 
