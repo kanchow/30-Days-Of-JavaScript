@@ -361,7 +361,7 @@ Open the browser console to see the output from the `console.log()`.
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Welcome to 30DaysOfJavaScript!')
     </script>
   </body>
 </html>
@@ -527,13 +527,15 @@ There are two ways of commenting:
 - _Single line commenting_
 - _Multiline commenting_
 
+**Single line commenting:**
+
 ```js
-// commenting the code itself with a single comment
+// Commente the code itself with a single comment
 // let firstName = 'Asabeneh'; single line comment
 // let lastName = 'Yetayeh'; single line comment
 ```
 
-Multiline commenting:
+**Multiline commenting:**
 
 ```js
 /*
