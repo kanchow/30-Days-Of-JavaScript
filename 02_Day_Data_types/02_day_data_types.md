@@ -48,7 +48,7 @@
 ## Data Types
 
 In the previous section, we mentioned a little bit about data types.
-Data, or values, have data types.
+Data (or values) have data types.
 Data types describe the characteristics of data.
 Data types can be divided into two:
 
@@ -83,7 +83,7 @@ let word = 'JavaScript'
 
 If we try to modify the string stored in variable *word*, the assignment will have no effect (the string remains unchanged).
 In strict mode, it may throw a TypeError, but generally strings are immutable and cannot be modified by index assignment.
-Any data type under a single quote, double quote, or backtick quote is a string data type.
+Any value enclosed in single quotes, double quotes, or backticks is a string data type.
 
 ```js
 word[0] = 'Y'
@@ -113,11 +113,11 @@ console.log(lightOn == lightOff) // false
 
 *Non-primitive* data types are modifiable or mutable.
 We can modify the value of non-primitive data types after it gets created.
-Let us see by creating an array.
+Let us see this by creating an array.
 An array is a list of data values in a square bracket.
 Arrays can contain the same or different data types.
 Array values are referenced by their index.
-In JavaScript array index starts at zero.
+In JavaScript, the array index starts at zero.
 I.e., the first element of an array is found at index zero, the second element at index one, and the third element at index two, etc.
 
 ```js
@@ -174,27 +174,27 @@ Now let us start the data types by number type.
 
 ## Numbers
 
-Numbers are integers and decimal values which can do all the arithmetic operations.
-Let's see some examples of Numbers.
+Numbers are integers and decimal values that can be used in all arithmetic operations.
+Let's see some examples of numbers.
 
 ### Declaring Number Data Types
 
 ```js
-let age = 35
-const gravity = 9.81 // we use const for non-changing values, gravitational constant in m/s2
-let mass = 72        // mass in Kilogram
-const PI = 3.14      // pi a geometrical constant
+let age = 35         // Age in years
+const gravity = 9.81 // Gravitational acceleration (m/s2)
+let mass = 72        // Mass (kg)
+const PI = 3.14      // Pi (π)
 
 // More Examples
-const boilingPoint = 100 // temperature in °C, boiling point of water which is a constant
-const bodyTemp = 37      // °C average human body temperature, which is a constant
+const boilingPoint = 100 // Boiling point of water (°C)
+const bodyTemp = 37      // Average human body temperature (°C)
 
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 ```
 
 ### Math Object
 
-In JavaScript the Math Object provides a lot of methods to work with numbers.
+In JavaScript, the Math object provides many methods to work with numbers.
 
 ```js
 const PI = Math.PI
@@ -214,7 +214,7 @@ console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 const randNum = Math.random() // creates random number between 0 (inclusive) and 1 (exclusive)
 console.log(randNum)
 
-// Let us create random number between 0 to 10
+// Let us create a random number between 0 and 10
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
 
@@ -249,7 +249,7 @@ Math.cos(60 * Math.PI / 180)
 
 #### Random Number Generator
 
-The JavaScript Math Object has a random() method which generates number from 0 (inclusive) to 1 (exclusive).
+The JavaScript Math Object has a random() method which generates a number from 0 (inclusive) to 1 (exclusive).
 
 ```js
 let randomNum = Math.random() // generates 0 (inclusive) to 1 (exclusive)
@@ -264,13 +264,13 @@ let numBetweenZeroAndTen = randomNum * 11
 console.log(numBetweenZeroAndTen) // this gives: min 0 and max 10.999...
 
 let randomNumRoundToFloor = Math.floor(numBetweenZeroAndTen)
-console.log(randomNumRoundToFloor) // this gives between 0 and 10
+console.log(randomNumRoundToFloor) // this gives a number between 0 and 10
 ```
 
 ## Strings
 
-Strings are texts, which are inside **_single_**, **_double_**, or **_backtick_** quotes.
-To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
+Strings are text enclosed in **_single_**, **_double_**, or **_backtick_** quotes.
+To declare a string, we need a variable name, an assignment operator, and a value enclosed in single quotes, double quotes, or backtick quotes.
 Let's see some examples of strings:
 
 ```js
@@ -305,7 +305,7 @@ We can concatenate strings in different ways.
 
 Concatenating using the addition operator is an old way.
 This way of concatenating is tedious and error-prone.
-It is good to know how to concatenate this way, but I strongly suggest to use the ES6 template strings (explained later on).
+It is good to know how to concatenate this way, but I strongly suggest using the ES6 template strings (explained later on).
 
 ```js
 // Declare different variables of different data types
@@ -434,7 +434,7 @@ I am Asabeneh Yetayeh. I am 250. I live in Finland.
 I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am a teacher. I teach JavaScript.
 ```
 
-Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
+Using a string template or string interpolation method, we can add expressions, which could be a value or some operations (comparison, arithmetic operations, ternary operation).
 
 ```js
 let a = 2
@@ -449,7 +449,7 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 ### String Methods
 
 Everything in JavaScript is an object.
-A string is a primitive data type that means we can not modify it once it is created.
+A string is a primitive data type, which means we cannot modify it once it is created.
 The string object has many string methods.
 There are different string methods that can help us to work with strings.
 
@@ -471,7 +471,7 @@ console.log(firstName.length) // 8
 
    ![Accessing string by index](../images/string_indexes.png)
 
-Let us access different characters in 'JavaScript' string.
+Let us access different characters in the 'JavaScript' string.
 
 ```js
 let string = 'JavaScript'
@@ -815,7 +815,7 @@ console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 
 ### Checking Data Types
 
-To check the data type of a certain variable we use the _typeof_ method.
+To check the data type of a certain variable we use the _typeof_ operator.
 
 **Example:**
 
@@ -921,7 +921,7 @@ console.log(numInt) // 9
 
 🌕  You are awesome.
 You have just completed day 2 challenges and you are two steps ahead on your way to greatness.
-Now do some exercises for your brain and for your muscle.
+Now do some exercises for your brain and for your muscles.
 
 ## 💻 Day 2: Exercises
 
@@ -932,7 +932,7 @@ Now do some exercises for your brain and for your muscle.
 3. Print the __length__ of the string on the browser console using _console.log()_.
 4. Change all the string characters to capital letters using __toUpperCase()__ method.
 5. Change all the string characters to lowercase letters using __toLowerCase()__ method.
-6. Cut (slice) out the first word of the string using __substr()__ or __substring()__ method.
+6. Cut (slice) out the first word of the string using the __substr()__ or __substring()__ method.
 7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
 8. Check if the string contains a word __Script__ using __includes()__ method.
 9. Split the __string__ into an __array__ using __split()__ method.
@@ -946,7 +946,7 @@ Now do some exercises for your brain and for your muscle.
 17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence: __'You cannot end a sentence with because because because is a conjunction'__.
-20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g., ' 30 Days Of JavaScript '.
 21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true.
 22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true.
 23. Use __match()__ method to find all the __a__’s in 30 Days Of JavaScript.
@@ -967,14 +967,14 @@ Now do some exercises for your brain and for your muscle.
     "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
     ```
 
-3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+3. Check if typeof '10' is exactly equal to 10. If not, make it exactly equal.
 4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal to 10.
 5. Check if 'on' is found in both python and jargon.
 6. _I hope this course is not full of jargon_. Check if _jargon_ is in the sentence.
 7. Generate a random number between 0 and 100 inclusively.
 8. Generate a random number between 50 and 100 inclusively.
 9. Generate a random number between 0 and 255 inclusively.
-10. Access the 'JavaScript' string characters using a random number.
+10. Access a random character from the string 'JavaScript' using a random number.
 11. Use console.log() and escape characters to print the following pattern.
 
     ```js
