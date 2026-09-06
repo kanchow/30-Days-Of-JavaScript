@@ -225,7 +225,7 @@ console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
 
 console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
-const randNum = Math.random() // creates random number between 0 to 0.999999
+const randNum = Math.random() // creates random number between 0 (inclusive) and 1 (exclusive)
 console.log(randNum)
 
 // Let us create random number between 0 to 10
@@ -267,13 +267,13 @@ Math.cos(60 * Math.PI / 180)
 The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
 ```js
-let randomNum = Math.random() // generates 0 to 0.999...
+let randomNum = Math.random() // generates 0 (inclusive) to 1 (exclusive)
 ```
 
 Now, let us see how we can use random() method to generate a random number between 0 and 10:
 
 ```js
-let randomNum = Math.random() // generates 0 to 0.999
+let randomNum = Math.random() // generates 0 (inclusive) to 1 (exclusive)
 let numBetweenZeroAndTen = randomNum * 11
 
 console.log(numBetweenZeroAndTen) // this gives: min 0 and max 10.99
@@ -534,6 +534,8 @@ console.log(country.toLowerCase()) // finland
 5. *substr()*: It takes two arguments, the starting index and number of characters to slice.
 
 ```js
+// Note: substr() is deprecated; consider using slice() or substring() in modern code.
+
 let string = 'JavaScript'
 console.log(string.substr(4, 6)) // Script
 
