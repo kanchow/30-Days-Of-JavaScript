@@ -119,7 +119,7 @@ I prefer using shortcuts.
 
 ![Opening chrome](../images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+To open the Chrome console, you can use a keyboard shortcut.
 
 ```sh
 Mac
