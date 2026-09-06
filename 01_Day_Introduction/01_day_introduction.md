@@ -200,9 +200,9 @@ In JavaScript, any text line starting with // in JavaScript is a comment, and an
 
 ```js
 /*
-This is a multiline comment
- Multiline comments can take multiple lines
- JavaScript is the language of the web
+   This is a multiline comment
+   Multiline comments can take multiple lines
+   JavaScript is the language of the web
  */
 ```
 
