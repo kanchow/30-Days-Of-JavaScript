@@ -602,6 +602,7 @@ console.log(country.includes('Land')) // false
 10. *replace()*: Takes the old substring and the new substring as its arguments.
 
 ```js
+// Syntax
 string.replace(oldsubstring, newsubstring)
 ```
 
@@ -616,6 +617,7 @@ console.log(country.replace('Fin', 'Noman')) // Nomanland
 11. *charAt()*: Takes an index and returns the value at that index.
 
 ```js
+// Syntax
 string.charAt(index)
 ```
 
@@ -630,6 +632,7 @@ console.log(string.charAt(lastIndex)) // t
 12. *charCodeAt()*: Takes an index and returns the char code (ASCII number) of the value at that index.
 
 ```js
+// Syntax
 string.charCodeAt(index)
 ```
 
@@ -645,6 +648,7 @@ console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
     If the substring exists in a string, it returns the first position of the substring, otherwise it returns -1.
 
 ```js
+// Syntax
 string.indexOf(substring)
 ```
 
@@ -675,9 +679,10 @@ console.log(string.lastIndexOf('you'))        // 63
 console.log(string.lastIndexOf('JavaScript')) // 38
 ```
 
-15. *concat()*: It takes many substrings and joins them.
+15. *concat()*: Takes many substrings and joins them.
 
 ```js
+// Syntax
 string.concat(substring, substring, substring)
 ```
 
@@ -689,7 +694,7 @@ let country = 'Fin'
 console.log(country.concat("land")) // Finland
 ```
 
-16. *startsWith*: It takes a substring as an argument and checks if the string starts with that specified substring.
+16. *startsWith()*: Takes a substring as an argument and checks if the string starts with that specified substring.
     It returns a boolean (true or false).
 
 ```js
@@ -709,10 +714,11 @@ console.log(country.startsWith('fin'))  // false
 console.log(country.startsWith('land')) // false
 ```
 
-17. *endsWith*: It takes a substring as an argument and checks if the string ends with that specified substring.
+17. *endsWith()*: Takes a substring as an argument and checks if the string ends with that specified substring.
     It returns a boolean (true or false).
 
 ```js
+// Syntax
 string.endsWith(substring)
 ```
 
@@ -728,10 +734,11 @@ console.log(country.endsWith('fin'))  // false
 console.log(country.endsWith('Fin'))  // false
 ```
 
-18. *search*: It takes a substring as an argument and returns the index of the first match.
+18. *search()*: Takes a substring as an argument and returns the index of the first match.
     The search value can be a string or a regular expression pattern.
 
 ```js
+// Syntax
 string.search(substring)
 ```
 
@@ -741,7 +748,7 @@ console.log(string.search('love'))         // 2
 console.log(string.search(/javascript/gi)) // 7
 ```
 
-19. *match*: It takes a substring or regular expression pattern as an argument and returns an array if there is a match, otherwise it returns null.
+19. *match()*: Takes a substring or regular expression pattern as an argument and returns an array if there is a match, otherwise it returns null.
     Let us see what a regular expression pattern looks like.
     It starts with `/` sign and ends with `/` sign.
 
@@ -751,7 +758,7 @@ let patternOne = /love/   // without any flag
 let patternTwo = /love/gi // g - means to search in the whole text, i - case insensitive
 ```
 
-Match syntax
+**Match syntax**
 
 ```js
 // Syntax
@@ -780,9 +787,9 @@ We will cover regular expressions later on.
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super excited to start this challenge'
 let regEx = /\d/g
 
-// d with escape character means d not a normal d instead acts a digit.
-// + means one or more digit numbers.
-// If there is g after that it means global, search everywhere.
+// \d is an escape sequence that matches any digit (0-9).
+// The + quantifier means "one or more" of the preceding element, so \d+ matches one or more digits.
+// The g flag (global) makes the search find all matches in the string, not just the first one.
 
 console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
