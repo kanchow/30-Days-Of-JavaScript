@@ -514,7 +514,7 @@ See the following example.
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5)          // number
 console.log(typeof true)       // boolean
-console.log(typeof null)       // object type
+console.log(typeof null)       // object (historical JS quirk)
 console.log(typeof undefined)  // undefined
 ```
 
