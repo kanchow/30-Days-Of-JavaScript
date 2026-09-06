@@ -517,7 +517,7 @@ let country = 'Finland'
 console.log(country.toLowerCase()) // finland
 ```
 
-5. *substr()*: It takes two arguments, the starting index and number of characters to slice.
+5. *substr()*: It takes two arguments, the starting index and number of characters, to slice.
 
 ```js
 // Note: substr() is deprecated; consider using slice() or substring() in modern code.
