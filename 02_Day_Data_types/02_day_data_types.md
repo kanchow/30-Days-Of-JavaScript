@@ -545,9 +545,9 @@ console.log(country.substr(3, 4)) // land
 
 ```js
 let string = 'JavaScript'
-console.log(string.substring(0,4))  // Java
-console.log(string.substring(4,10)) // Script
-console.log(string.substring(4))    // Script
+console.log(string.substring(0, 4))  // Java
+console.log(string.substring(4, 10)) // Script
+console.log(string.substring(4))     // Script
 
 let country = 'Finland'
 console.log(country.substring(0, 3)) // Fin
@@ -563,12 +563,12 @@ console.log(string.split())    // Changes to an array -> ["30 Days Of JavaScript
 console.log(string.split(' ')) // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
 
 let firstName = 'Asabeneh'
-console.log(firstName.split())   // Change to an array - > ["Asabeneh"]
+console.log(firstName.split())   // Changes to an array -> ["Asabeneh"]
 console.log(firstName.split('')) // Split to an array at each letter -> ["A", "s", "a", "b", "e", "n", "e", "h"]
 
 let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
 
-console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(','))  // Split to an array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
 console.log(countries.split(', ')) // ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
 ```
 
@@ -720,7 +720,7 @@ console.log(country.startsWith('land')) // false
 ```
 
 17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring.
-    It returns a boolean(true or false).
+    It returns a boolean (true or false).
 
 ```js
 string.endsWith(substring)
@@ -756,7 +756,7 @@ console.log(string.search(/javascript/gi)) // 7
 
 ```js
 let string = 'love'
-let patternOne = /love/   // with out any flag
+let patternOne = /love/   // without any flag
 let patternTwo = /love/gi // g - means to search in the whole text, i - case insensitive
 ```
 
