@@ -134,7 +134,6 @@ Even if two non-primitive data types have the same properties and values, they a
 ```js
 let nums = [1, 2, 3]
 let numbers = [1, 2, 3]
-
 console.log(nums == numbers) // false
 
 let userOne = {
@@ -142,13 +141,11 @@ let userOne = {
   role: 'teaching',
   country: 'Finland'
 }
-
 let userTwo = {
   name: 'Asabeneh',
   role: 'teaching',
   country: 'Finland'
 }
-
 console.log(userOne == userTwo) // false
 ```
 
