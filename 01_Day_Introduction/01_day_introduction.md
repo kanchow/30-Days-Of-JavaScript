@@ -446,10 +446,10 @@ The following are JavaScript primitive data types: _String, Number, Boolean, und
 
 ### Numbers
 
-- Integers: Integer (negative, zero and positive) numbers
+- Integers: Integer (negative, zero and positive) numbers  
   Example:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Floating-point numbers: Decimal number
+- Floating-point numbers: Decimal number  
   Example
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
