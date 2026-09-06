@@ -25,7 +25,7 @@
     - [Browser](#browser)
       - [Installing Google Chrome](#installing-google-chrome)
       - [Opening Google Chrome Console](#opening-google-chrome-console)
-      - [Writing Code on Browser Console](#writing-code-on-browser-console)
+      - [Writing Code in Browser Console](#writing-code-in-browser-console)
         - [Console.log](#consolelog)
         - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
         - [Comments](#comments)
@@ -60,7 +60,8 @@ JavaScript is the language of the web.
 I enjoy using and teaching JavaScript and I hope you will do so too.
 
 In this step‑by‑step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, and games_** and nowadays JavaScript can be used for **server-side programming**, **_machine learning_** and **_AI_**.
+JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, and games_**.
+Nowadays, it is also used for **server-side programming**, **_machine learning_** and **_AI_**.
 
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading programming language for the last ten years and is the most used programming language on GitHub.
 
@@ -139,7 +140,7 @@ Let us write some JavaScript code on the Google Chrome console:
 
 ![write code on console](../images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### Writing Code in Browser Console
 
 We can write any JavaScript code on the Google console or any browser console.
 However, for this challenge, we only focus on the Google Chrome console.
@@ -234,7 +235,7 @@ console.log('Hello, World!')
 ```
 
 So far, we have seen how to display text using the _`console.log()`_.
-If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or backticks.
+If we are printing text or a string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or backticks.
 
 **Example:**
 
@@ -247,10 +248,10 @@ console.log(`Hello, World!`)
 #### Arithmetic
 
 Now, let us practice writing more JavaScript code using _`console.log()`_ on the Google Chrome console for numbers.
-In addition to the text, we can also do mathematical calculations using JavaScript.
+In addition to printing text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
-However, it is included in this introduction because most of this challenge will take place in a text editor where the usage of the function would be mandatory.
+However, it is included in this introduction because most of this challenge will take place in a text editor, where using the function is required.
 You can play around directly with code on the console.
 
 ![Arithmetic](../images/arithmetic.png)
@@ -478,7 +479,7 @@ A collection of one or more characters between two single quotes, double quotes,
 A boolean value is either true or false.
 Any comparison returns a boolean value, which is either true or false.
 
-A boolean data type is either a true or false value.
+A boolean data type is either true or false.
 
 **Example:**
 
@@ -606,7 +607,7 @@ num_#_1
 ```
 
 Let us declare variables with different data types.
-To declare a variable, we need to use _let_ or _const_ keyword before the variable name.
+To declare a variable, we need to use the _let_ or _const_ keyword before the variable name.
 Following the variable name, we write an equal sign (assignment operator), and a value (assigned data).
 
 ```js
@@ -671,8 +672,8 @@ Now do some exercises for your brain and muscle.
 1. Write a single line comment which says, _comments can make code readable_.
 2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_.
 3. Write a multiline comment which says, _comments can make code readable, easy to reuse and informative_.
-4. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types.
-5. Create datatypes.js file and use the JavaScript **_typeof_** operator to check different data types.
+4. Create a variable.js file and declare variables and assign values of string, boolean, undefined and null data types.
+5. Create a datatypes.js file and use the JavaScript **_typeof_** operator to check different data types.
    Check the data type of each variable.
 6. Declare four variables without assigning values.
 7. Declare four variables with assigned values.
