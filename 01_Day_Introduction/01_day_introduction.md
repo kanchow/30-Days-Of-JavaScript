@@ -380,7 +380,7 @@ Create a file named introduction.js inside your project directory.
 Write the following code, then link this .js file at the bottom of the body.
 
 ```js
-console.log('Welcome to 30DaysOfJavaScript')
+console.log('Welcome to 30DaysOfJavaScript!')
 ```
 
 External scripts in the _head_:
@@ -670,7 +670,7 @@ Now do some exercises for your brain and muscle.
 # 💻 Day 1: Exercises
 
 1. Write a single line comment which says, _comments can make code readable_.
-2. Write another single comment which says, _Welcome to 30DaysOfJavaScript_.
+2. Write another single comment which says, _Welcome to 30DaysOfJavaScript!_.
 3. Write a multiline comment which says, _comments can make code readable, easy to reuse and informative_.
 4. Create a variable.js file and declare variables and assign values of string, boolean, undefined and null data types.
 5. Create a datatypes.js file and use the JavaScript **_typeof_** operator to check different data types.
