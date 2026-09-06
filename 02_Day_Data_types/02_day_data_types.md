@@ -579,9 +579,9 @@ console.log(firstName.trim()) // still removes spaces at the beginning and the e
 Asabeneh
 ```
 
-9. *includes()*: It takes a substring argument and it checks if substring argument exists in the string.
-   *includes()* returns a boolean.
-   If a substring exist in a string, it returns true, otherwise it returns false.
+9. *includes()*: Takes a substring argument and checks if the substring argument exists in the string.
+   It returns a boolean.
+   If the substring argument exists in a string, it returns true, otherwise it returns false.
 
 ```js
 let string = '30 Days Of JavaScript'
