@@ -284,7 +284,7 @@ console.log(randomNumRoundToFloor) // this gives between 0 and 10
 
 ## Strings
 
-Strings are texts, which are under **_single_**, **_double_**, **_back-tick_** quote.
+Strings are texts, which are under **_single_**, **_double_**, **_backtick_** quote.
 To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
 Let's see some examples of strings:
 
@@ -333,7 +333,6 @@ let language = 'JavaScript'
 let job = 'teacher'
 let age = 250
 
-
 let fullName =firstName + space + lastName
 let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 string addition
 
@@ -348,7 +347,7 @@ Asabeneh Yetayeh. I am 250. I live in Finland
 
 A string could be a single character or paragraph or a page.
 If the string length is too big it does not fit in one line.
-We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
+We can use the backslash character (`\`) at the end of each line to indicate that the string will continue on the next line.
 
 **Example:**
 
@@ -407,7 +406,7 @@ The saying 'Seeing is Believing' isn't correct in 2020
 
 #### Template Literals (Template Strings)
 
-To create a template strings, we use two back-ticks.
+To create a template strings, we use two backticks.
 We can inject data as expressions inside a template string.
 To inject data, we enclose the expression with a curly bracket(`{}`) preceded by a `$` sign.
 See the syntax below.
@@ -422,6 +421,7 @@ See the syntax below.
 
 ```js
 console.log(`The sum of 2 and 3 is 5`) // statically writing the data
+
 let a = 2
 let b = 3
 console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynamically
@@ -505,7 +505,7 @@ console.log(lastIndex) // 9
 console.log(string[lastIndex]) // t
 ```
 
-3. *toUpperCase()*: this method changes the string to uppercase letters.
+3. *toUpperCase()*: This method changes the string to uppercase letters.
 
 ```js
 let string = 'JavaScript'
@@ -518,7 +518,7 @@ let country = 'Finland'
 console.log(country.toUpperCase()) // FINLAND
 ```
 
-4. *toLowerCase()*: this method changes the string to lowercase letters.
+4. *toLowerCase()*: This method changes the string to lowercase letters.
 
 ```js
 let string = 'JavasCript'
@@ -555,7 +555,7 @@ console.log(country.substring(3, 7)) // land
 console.log(country.substring(3))    // land
 ```
 
-7. *split()*: The split method splits a string at a specified place.
+7. *split()*: The method splits a string at a specified place.
 
 ```js
 let string = '30 Days Of JavaScript'
@@ -611,7 +611,7 @@ console.log(country.includes('land')) // true
 console.log(country.includes('Land')) // false
 ```
 
-10. *replace()*: takes as a parameter the old substring and a new substring.
+10. *replace()*: Takes as a parameter the old substring and a new substring.
 
 ```js
 string.replace(oldsubstring, newsubstring)
@@ -625,7 +625,7 @@ let country = 'Finland'
 console.log(country.replace('Fin', 'Noman')) // Nomanland
 ```
 
-11. *charAt()*: Takes index and it returns the value at that index
+11. *charAt()*: Takes index and it returns the value at that index.
 
 ```js
 string.charAt(index)
@@ -639,7 +639,7 @@ let lastIndex = string.length - 1
 console.log(string.charAt(lastIndex)) // t
 ```
 
-12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index
+12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index.
 
 ```js
 string.charCodeAt(index)
@@ -653,7 +653,8 @@ let lastIndex = string.length - 1
 console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 ```
 
-13. *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+13. *indexOf()*: Takes a substring.
+    If the substring exists in a string, it returns the first position of the substring, otherwise it returns -1.
 
 ```js
 string.indexOf(substring)
@@ -671,7 +672,8 @@ console.log(string.indexOf('Script'))     // 15
 console.log(string.indexOf('script'))     // -1
 ```
 
-14. *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
+14. *lastIndexOf()*: Takes a substring.
+    If the substring exists in a string, it returns the last position of the substring, otherwise it returns -1.
 
 ```js
 // Syntax
@@ -685,7 +687,7 @@ console.log(string.lastIndexOf('you'))        // 63
 console.log(string.lastIndexOf('JavaScript')) // 38
 ```
 
-15. *concat()*: it takes many substrings and joins them.
+15. *concat()*: It takes many substrings and joins them.
 
 ```js
 string.concat(substring, substring, substring)
@@ -699,7 +701,7 @@ let country = 'Fin'
 console.log(country.concat("land")) // Finland
 ```
 
-16. *startsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring.
+16. *startsWith*: It takes a substring as an argument and checks if the string starts with that specified substring.
     It returns a boolean (true or false).
 
 ```js
@@ -719,7 +721,7 @@ console.log(country.startsWith('fin'))  // false
 console.log(country.startsWith('land')) // false
 ```
 
-17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring.
+17. *endsWith*: It takes a substring as an argument and checks if the string ends with that specified substring.
     It returns a boolean (true or false).
 
 ```js
@@ -738,7 +740,7 @@ console.log(country.endsWith('fin'))  // false
 console.log(country.endsWith('Fin'))  // false
 ```
 
-18. *search*: it takes a substring as an argument and it returns the index of the first match.
+18. *search*: It takes a substring as an argument and returns the index of the first match.
     The search value can be a string or a regular expression pattern.
 
 ```js
@@ -751,8 +753,9 @@ console.log(string.search('love'))         // 2
 console.log(string.search(/javascript/gi)) // 7
 ```
 
-19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null.
-    Let us see how a regular expression pattern looks like. It starts with `/` sign and ends with `/` sign.
+19. *match*: It takes a substring or regular expression pattern as an argument and returns an array if there is a match, otherwise it returns null.
+    Let us see what a regular expression pattern looks like.
+    It starts with `/` sign and ends with `/` sign.
 
 ```js
 let string = 'love'
@@ -782,21 +785,22 @@ console.log(string.match(pattern)) // ["love", "love", "love"]
 ```
 
 Let us extract numbers from text using a regular expression.
-This is not the regular expression section, do not panic! We will cover regular expressions later on.
+This is not the regular expression section, do not panic!
+We will cover regular expressions later on.
 
 ```js
 let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super excited to start this challenge'
 let regEx = /\d/g
 
-// d with escape character means d not a normal d instead acts a digit
-// + means one or more digit numbers,
-// if there is g after that it means global, search everywhere.
+// d with escape character means d not a normal d instead acts a digit.
+// + means one or more digit numbers.
+// If there is g after that it means global, search everywhere.
 
 console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
-20. *repeat()*: it takes a number as argument and it returns the repeated version of the string.
+20. *repeat()*: It takes a number as argument and returns the repeated version of the string.
 
 ```js
 string.repeat(n)
@@ -842,7 +846,7 @@ console.log(typeof null)       // object
 
 - Casting: Converting one data type to another data type.
   We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _String()_
-  When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
+  When we do arithmetic operations on string numbers, they should be converted to an integer or a float first; otherwise, it returns `NaN` (Not-a-Number).
 
 #### String to Int
 
