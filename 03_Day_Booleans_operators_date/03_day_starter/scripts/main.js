@@ -1,1 +1,1 @@
-// This is your main.js script.
+// This is your main.js file.
