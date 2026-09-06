@@ -318,7 +318,7 @@ Then paste the following code and open it in a browser, for example [Chrome](htt
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript: Inline Script</title>
+    <title>30DaysOfJavaScript: Inline Script</title>
   </head>
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
@@ -338,7 +338,7 @@ First, let us write in the head part of the page.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript: Internal Script</title>
+    <title>30DaysOfJavaScript: Internal Script</title>
     <script>
       console.log('Welcome to 30DaysOfJavaScript!')
     </script>
@@ -355,7 +355,7 @@ Open the browser console to see the output from the `console.log()`.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript: Internal Script</title>
+    <title>30DaysOfJavaScript: Internal Script</title>
   </head>
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
@@ -542,7 +542,7 @@ There are two ways of commenting:
   let location = 'Helsinki';
   let age = 100;
   let isMarried = true;
-  This is a Multiple line comment
+  This is a multiple‑line comment
 */
 ```
 
@@ -650,8 +650,8 @@ console.log(gravity, boilingPoint, PI)
 
 ```js
 // Variables can also be declared in one line separated by commas; however, I recommend using separate lines to make the code more readable.
-let name = 'Asabeneh', job = 'teacher', live = 'Finland'
-console.log(name, job, live)
+let name = 'Asabeneh', job = 'teacher', country = 'Finland'
+console.log(name, job, country)
 ```
 
 ```sh
