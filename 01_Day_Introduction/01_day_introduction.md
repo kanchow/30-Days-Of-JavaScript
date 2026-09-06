@@ -82,12 +82,12 @@ If you have those, then you have everything to get started.
 
 ### Install Node.js
 
-You may not need Node.js right now but you may need it for later.
+You may not need Node.js right now but you may need it later.
 Install [node.js](https://nodejs.org/en/).
 
 ![Node download](../images/download_node.png)
 
-After downloading double click and install
+After downloading double-click and install
 
 ![Install node](../images/install_node.png)
 
@@ -134,8 +134,8 @@ Ctrl+Shift+J
 After you open the Google Chrome console, try to explore the marked buttons.
 We will spend most of the time on the Console.
 The Console is the place where your JavaScript code goes.
-The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+The V8 engine in Google Chrome converts your JavaScript code to machine code.
+Let us write some JavaScript code on the Google Chrome console:
 
 ![write code on console](../images/js_code_on_chrome_console.png)
 
@@ -166,7 +166,7 @@ console.log('Hello, World!')
 ##### Console.log with Multiple Arguments
 
 The **`console.log()`** function can take multiple parameters separated by commas.
-The syntax looks like as follows: **`console.log(param1, param2, param3)`**.
+The syntax is as follows: **`console.log(param1, param2, param3)`**.
 
 ![console log multiple arguments](../images/console_log_multipl_arguments.png)
 
@@ -176,7 +176,7 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
+From the code snippet above, _`console.log()`_ can take multiple arguments.
 
 Congratulations!
 You wrote your first JavaScript code using _`console.log()`_.
@@ -186,7 +186,7 @@ You wrote your first JavaScript code using _`console.log()`_.
 We can add comments to our code.
 Comments are very important to make code more readable and to leave remarks in our code.
 JavaScript does not execute the comment part of our code.
-In JavaScript, any text line starting with `//` in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+In JavaScript, any text line starting with `//` in JavaScript is a comment, and anything between `/*` and `*/` is a multi-line comment.
 
 **Example: Single Line Comment**
 
@@ -209,11 +209,11 @@ In JavaScript, any text line starting with `//` in JavaScript is a comment, and 
 ##### Syntax
 
 Programming languages are similar to human languages.
-English or many other language use words, phrases, sentences, compound sentences and other structures to convey a meaningful message.
+English or many other languages use words, phrases, sentences, compound sentences and other structures to convey a meaningful message.
 The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_.
 The technical definition of syntax is the structure of statements in a computer language.
 Programming languages have syntax.
-JavaScript is a programming language and like other programming languages it has its own syntax.
+JavaScript is a programming language, and like other programming languages, it has its own syntax.
 If we do not write code with correct syntax, it will raise different types of errors.
 We will explore different kinds of JavaScript errors later.
 For now, let us see syntax errors.
@@ -233,7 +233,7 @@ console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_.
+So far, we have seen how to display text using the _`console.log()`_.
 If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or backticks.
 
 **Example:**
@@ -250,7 +250,7 @@ Now, let us practice writing more JavaScript code using _`console.log()`_ on Goo
 In addition to the text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
-However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory.
+However, it is included in this introduction because most of this challenge will take place in a text editor where the usage of the function would be mandatory.
 You can play around directly with instructions on the console.
 
 ![Arithmetic](../images/arithmetic.png)
@@ -306,7 +306,6 @@ JavaScript can be added to a web page in three different ways:
 - **_Inline script_**
 - **_Internal script_**
 - **_External script_**
-- **_Multiple External scripts_**
 
 The following sections show different ways of adding JavaScript code to your web page.
 
@@ -332,8 +331,8 @@ We can create a pop-up alert message using the _`alert()`_ built-in function.
 
 ### Internal Script
 
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it in the body of the HTML document.
+First, let us write in the head part of the page.
 
 ```html
 <!DOCTYPE html>
@@ -373,7 +372,7 @@ Open the browser console to see the output from the `console.log()`.
 
 ### External Script
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
+Similar to the internal script, the external script link can be in the header or body, but it is preferred to put it in the body.
 First, we should create an external JavaScript file with .js extension.
 All files ending with .js extension are JavaScript files.
 Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
@@ -442,7 +441,7 @@ It is very important to remember this.
 
 ## Introduction to Data types
 
-In JavaScript and also other programming languages, there are different types of data types.
+In JavaScript and also other programming languages, there are different data types.
 The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
 
 ### Numbers
@@ -658,7 +657,7 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+When you run the _index.html_ file in the 01-Day folder, you should get this:
 
 ![Day one](../images/day_1.png)
 
