@@ -12,7 +12,7 @@ let patternTwo = /love/gi // g means "search the whole text", and i makes it cas
   string.match(substring)
 */
 
-let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.match('love'))
 /*
   Output

@@ -1,4 +1,4 @@
-// split(): The method splits a string into an array by a specified separator.
+// split(): The method splits a string into an array using a specified separator.
 
 let string = '30 Days Of JavaScript'
 console.log(string.split())    // ["30 Days Of JavaScript"]
