@@ -1,4 +1,4 @@
-// includes(): Takes a substring argument and checks if substring argument exists in the string.
+// includes(): Takes a substring as an argument and checks if it exists in the string.
 // It returns a boolean (true or false).
 
 let string = '30 Days Of JavaScript'

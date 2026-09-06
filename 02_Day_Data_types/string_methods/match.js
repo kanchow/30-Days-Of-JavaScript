@@ -1,9 +1,10 @@
 // match(): Takes a substring or regular expression pattern as an argument and returns an array if there is a match, otherwise it returns null.
 
-// Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
-// let string = 'love'
-// let patternOne = /love/   // without any flag
-// let patternTwo = /love/gi // g - means to search in the whole text, i - case insensitive
+// Let us see what a regular expression pattern looks like.
+// It starts with a / sign and ends with a / sign.
+let string = 'love'
+let patternOne = /love/   // without any flag
+let patternTwo = /love/gi // g - means to search the whole text, i - means case-insensitive.
 
 /*
   Syntax:
