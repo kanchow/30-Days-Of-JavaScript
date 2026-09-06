@@ -341,7 +341,7 @@ First, let us write on the head part of the page.
   <head>
     <title>30DaysOfScript: Internal Script</title>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Welcome to 30DaysOfJavaScript!')
     </script>
   </head>
   <body></body>
@@ -356,7 +356,7 @@ Open the browser console to see the output from the `console.log()`.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Internal Script</title>
   </head>
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
