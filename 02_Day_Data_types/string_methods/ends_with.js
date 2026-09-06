@@ -1,4 +1,4 @@
-// endsWith: Takes a substring as an argument and checks if the string starts with that specified substring.
+// endsWith: Takes a substring as an argument and checks if the string ends with that specified substring.
 // It returns a boolean (true or false).
 
 /*
