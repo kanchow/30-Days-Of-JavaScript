@@ -48,8 +48,10 @@
 
 ## Data Types
 
-In the previous section, we mentioned a little bit about data types. Data or values have data types.
-Data types describe the characteristics of data. Data types can be divided into two:
+In the previous section, we mentioned a little bit about data types.
+Data or values have data types.
+Data types describe the characteristics of data.
+Data types can be divided into two:
 
 1. Primitive data types
 2. Non-primitive data types(Object References)
@@ -113,8 +115,10 @@ console.log(lightOn == lightOff) // false
 
 *Non-primitive* data types are modifiable or mutable.
 We can modify the value of non-primitive data types after it gets created.
-Let us see by creating an array. An array is a list of data values in a square bracket.
-Arrays can contain the same or different data types. Array values are referenced by their index.
+Let us see by creating an array.
+An array is a list of data values in a square bracket.
+Arrays can contain the same or different data types.
+Array values are referenced by their index.
 In JavaScript array index starts at zero.
 I.e., the first element of an array is found at index zero, the second element at index one, and the third element at index two, etc.
 
@@ -314,7 +318,8 @@ We can concatenate strings in different ways.
 
 #### Concatenating Using Addition Operator
 
-Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone.
+Concatenating using the addition operator is an old way.
+This way of concatenating is tedious and error-prone.
 It is good to know how to concatenate this way, but I strongly suggest to use the ES6 template strings (explained later on).
 
 ```js
@@ -582,7 +587,7 @@ console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark
 let string = '   30 Days Of JavaScript   '
 
 console.log(string)
-console.log(string.trim(' '))
+console.log(string.trim())
 
 let firstName = ' Asabeneh '
 
