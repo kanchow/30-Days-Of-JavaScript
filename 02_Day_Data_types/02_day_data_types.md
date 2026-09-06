@@ -766,6 +766,8 @@ let patternTwo = /love/gi // g - means to search in the whole text, i - case ins
 string.match(substring)
 ```
 
+**Example:**
+
 ```js
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.match('love'))
