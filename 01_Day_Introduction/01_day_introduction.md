@@ -87,7 +87,7 @@ Install [node.js](https://nodejs.org/en/).
 
 ![Node download](../images/download_node.png)
 
-After downloading, double-click and install
+After downloading, double-click the installer and install it.
 
 ![Install node](../images/install_node.png)
 
@@ -108,7 +108,7 @@ However, I strongly recommend Google Chrome.
 #### Installing Google Chrome
 
 Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet.
-We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+We can write some JavaScript code on the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](../images/google_chrome.png)
 
@@ -142,7 +142,7 @@ Let us write some JavaScript code on the Google Chrome console:
 #### Writing Code on Browser Console
 
 We can write any JavaScript code on the Google console or any browser console.
-However, for this challenge, we only focus on Google Chrome console.
+However, for this challenge, we only focus on the Google Chrome console.
 Open the console using:
 
 ```sh
@@ -157,7 +157,7 @@ Ctrl+Shift+I
 
 To write our first JavaScript code, we use the built-in function **console.log()**.
 We pass an argument as input data, and the function displays the output.
-We passed `'Hello, World!'` as input data or argument in the console.log() function.
+We pass `'Hello, World!'` as input data or argument in the console.log() function.
 
 ```js
 console.log('Hello, World!')
@@ -246,7 +246,7 @@ console.log(`Hello, World!`)
 
 #### Arithmetic
 
-Now, let us practice writing more JavaScript code using _`console.log()`_ on Google Chrome console for numbers.
+Now, let us practice writing more JavaScript code using _`console.log()`_ on the Google Chrome console for numbers.
 In addition to the text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
@@ -476,7 +476,7 @@ A collection of one or more characters between two single quotes, double quotes,
 ### Booleans
 
 A boolean value is either true or false.
-Any comparisons return a boolean value, which is either true or false.
+Any comparison returns a boolean value, which is either true or false.
 
 A boolean data type is either a true or false value.
 
@@ -490,7 +490,7 @@ false // if the light is off, the value is false
 ### Undefined
 
 In JavaScript, if we don't assign a value to a variable, the value is undefined.
-In addition to that, if a function is not returning anything, it returns undefined.
+In addition to that, if a function does not return anything, it returns undefined.
 
 ```js
 let firstName
