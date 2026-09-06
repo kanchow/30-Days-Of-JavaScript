@@ -56,7 +56,8 @@
 ## Introduction
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers.
-Welcome to JavaScript. JavaScript is the language of the web.
+Welcome to JavaScript.
+JavaScript is the language of the web.
 I enjoy using and teaching JavaScript and I hope you will do so too.
 
 In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
@@ -66,7 +67,8 @@ JavaScript is used **_to add interactivity to websites, to develop mobile apps, 
 
 ## Requirements
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+No prior knowledge of programming is required to follow this challenge.
+You need only:
 
 1. Motivation
 2. A computer
@@ -81,7 +83,8 @@ If you have those, then you have everything to get started.
 
 ### Install Node.js
 
-You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+You may not need Node.js right now but you may need it for later.
+Install [node.js](https://nodejs.org/en/).
 
 ![Node download](../images/download_node.png)
 
