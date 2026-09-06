@@ -249,7 +249,7 @@ Math.cos(60 * Math.PI / 180)
 
 #### Random Number Generator
 
-The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
+The JavaScript Math Object has a random() method number generator which generates number from 0 (inclusive) to 1 (exclusive).
 
 ```js
 let randomNum = Math.random() // generates 0 (inclusive) to 1 (exclusive)
