@@ -141,15 +141,15 @@ let numbers = [1, 2, 3]
 console.log(nums == numbers) // false
 
 let userOne = {
-  name:'Asabeneh',
-  role:'teaching',
-  country:'Finland'
+  name: 'Asabeneh',
+  role: 'teaching',
+  country: 'Finland'
 }
 
 let userTwo = {
-  name:'Asabeneh',
-  role:'teaching',
-  country:'Finland'
+  name: 'Asabeneh',
+  role: 'teaching',
+  country: 'Finland'
 }
 
 console.log(userOne == userTwo) // false
@@ -167,9 +167,9 @@ let numbers = nums
 console.log(nums == numbers) // true
 
 let userOne = {
-  name:'Asabeneh',
-  role:'teaching',
-  country:'Finland'
+  name: 'Asabeneh',
+  role: 'teaching',
+  country: 'Finland'
 }
 
 let userTwo = userOne
@@ -254,12 +254,12 @@ console.log(Math.log(10)) // 2.302585092994046
 console.log(Math.LN2)  // 0.6931471805599453
 console.log(Math.LN10) // 2.302585092994046
 
-// Trigonometry
+// Trigonometry (all functions use radians)
 Math.sin(0)
-Math.sin(60)
+Math.sin(60 * Math.PI / 180)
 
 Math.cos(0)
-Math.cos(60)
+Math.cos(60 * Math.PI / 180)
 ```
 
 #### Random Number Generator

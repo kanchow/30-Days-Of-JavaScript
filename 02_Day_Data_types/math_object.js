@@ -12,7 +12,7 @@ console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
 const randNum = Math.random() // creates random number between 0 to 0.999999
 console.log(randNum)
-// Let create random number between 0 to 10
+// Let's create random number between 0 to 10
 const num = Math.floor(Math.random() * 11) // creates random number between 0 and 10
 console.log(num)
 
@@ -34,6 +34,6 @@ console.log(Math.log(10)) // 2.302585092994046
 
 // Trigonometry
 console.log(Math.sin(0))
-console.log(Math.sin(60))
+console.log(Math.sin(60 * Math.PI / 180))
 console.log(Math.cos(0))
-console.log(Math.cos(60))
+console.log(Math.cos(60 * Math.PI / 180))
