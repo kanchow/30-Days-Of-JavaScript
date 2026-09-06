@@ -749,6 +749,7 @@ console.log(string.search(/javascript/gi)) // 7
 ```
 
 19. *match()*: Takes a substring or regular expression pattern as an argument and returns an array if there is a match, otherwise it returns null.
+
     Let us see what a regular expression pattern looks like.
     It starts with `/` sign and ends with `/` sign.
 
