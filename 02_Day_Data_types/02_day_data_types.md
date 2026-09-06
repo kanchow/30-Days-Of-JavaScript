@@ -771,6 +771,8 @@ let string = 'I love JavaScript. If you do not love JavaScript what else can you
 console.log(string.match('love'))
 ```
 
+**Output:**
+
 ```sh
 ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
 ```
