@@ -62,7 +62,7 @@ I enjoy using and teaching JavaScript and I hope you will do so too.
 In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
 JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **server-side programming**, **_machine learning_** and **_AI_**.
 
-**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading programming language for last ten years and is the most used programming language on GitHub.
+**_JavaScript (JS)_** has increased in popularity in recent years and has been the leading programming language for the last ten years and is the most used programming language on GitHub.
 
 ## Requirements
 
@@ -209,12 +209,12 @@ In JavaScript, any text line starting with `//` in JavaScript is a comment, and 
 ##### Syntax
 
 Programming languages are similar to human languages.
-English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message.
+English or many other language use words, phrases, sentences, compound sentences and other structures to convey a meaningful message.
 The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_.
 The technical definition of syntax is the structure of statements in a computer language.
 Programming languages have syntax.
 JavaScript is a programming language and like other programming languages it has its own syntax.
-If we do not write a syntax that JavaScript understands, it will raise different types of errors.
+If we do not write code with correct syntax, it will raise different types of errors.
 We will explore different kinds of JavaScript errors later.
 For now, let us see syntax errors.
 
@@ -222,7 +222,7 @@ For now, let us see syntax errors.
 
 I made a deliberate mistake.
 As a result, the console raises syntax errors.
-Actually, the syntax is very informative.
+Actually, the error message is very informative.
 It informs what type of mistake was made.
 By reading the error feedback guideline, we can correct the syntax and fix the problem.
 The process of identifying and removing errors from a program is called debugging.
@@ -246,7 +246,7 @@ console.log(`Hello, World!`)
 
 #### Arithmetic
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
+Now, let us practice writing more JavaScript code using _`console.log()`_ on Google Chrome console for number data types.
 In addition to the text, we can also do mathematical calculations using JavaScript.
 Let us do the following simple calculations.
 It is possible to write JavaScript code on the Google Chrome console directly without the **_`console.log()`_** function.
@@ -266,14 +266,14 @@ console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't be for bigger projects.
+We can write our code on the browser console, but it won't be for bigger projects.
 In a real working environment, developers use different code editors to write their codes.
 In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
 
 #### Installing Visual Studio Code
 
 Visual Studio Code is a very popular open-source text editor.
-I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+I would recommend [downloading Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
 ![Vscode](../images/vscode.png)
 
@@ -435,7 +435,7 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_.
+_Your primary script file (e.g., main.js) should be placed below all others_.
 It is very important to remember this.
 
 ![Multiple Script](../images/multiple_script.png)
@@ -554,11 +554,11 @@ When a variable is declared, a memory location is reserved.
 When a variable is assigned to a value (data), the memory space will be filled with that data.
 To declare a variable, we use _var_, _let_, or _const_ keywords.
 
-For a variable that changes at a different time, we use _let_.
+For a variable that changes over time, we use _let_.
 If the data does not change at all, we use _const_.
 For example, PI, country name, gravity do not change, and we can use _const_.
-We will not use var in this challenge and I don't recommend you to use it.
-It is an error-prone way of declaring a variable; it has a lot of leaks.
+We will not use var in this challenge and I don't recommend using it.
+It is an error-prone way of declaring a variable; it has many pitfalls.
 We will talk more about var, let, and const in detail in other sections (scope).
 For now, the above explanation is enough.
 
@@ -614,7 +614,7 @@ Following the variable name, we write an equal sign (assignment operator), and a
 let nameOfVariable = value
 ```
 
-The nameOfVariable is the name that stores different data of value.
+The variable name holds a value of a certain data type.
 See below for detailed examples.
 
 **Examples of declared variables:**
