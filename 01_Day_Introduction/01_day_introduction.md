@@ -235,6 +235,7 @@ console.log('Hello, World!')
 
 So far, we saw how to display text using the _`console.log()`_.
 If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
+
 **Example:**
 
 ```js
