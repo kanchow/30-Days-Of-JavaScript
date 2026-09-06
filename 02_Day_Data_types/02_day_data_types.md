@@ -759,7 +759,7 @@ let patternOne = /love/   // without any flag
 let patternTwo = /love/gi // g - means to search in the whole text, i - case insensitive
 ```
 
-**Match syntax**
+**Match syntax:**
 
 ```js
 // Syntax
