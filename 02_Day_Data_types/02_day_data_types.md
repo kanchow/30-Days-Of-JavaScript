@@ -543,7 +543,7 @@ console.log(country.substring(3, 7)) // land
 console.log(country.substring(3))    // land
 ```
 
-7. *split()*: The method splits a string at a specified place.
+7. *split()*: This method splits a string at a specified place.
 
 ```js
 let string = '30 Days Of JavaScript'
@@ -560,7 +560,7 @@ console.log(countries.split(','))  // Split to an array at comma -> ["Finland", 
 console.log(countries.split(', ')) // ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
 ```
 
-8. *trim()*: Removes trailing space in the beginning or the end of a string.
+8. *trim()*: Removes leading and trailing whitespace from a string.
 
 ```js
 let string = '   30 Days Of JavaScript   '
