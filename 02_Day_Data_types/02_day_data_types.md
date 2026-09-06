@@ -288,7 +288,7 @@ let quoteWithBackTick = `The saying, 'Seeing is Believing' is not correct in 202
 ### String Concatenation
 
 Connecting two or more strings together is called concatenation.
-Using the strings declared in the previous String section:
+Use the strings declared in the previous String section:
 
 ```js
 let fullName = firstName + space + lastName; // concatenation, merging two string together.
@@ -373,7 +373,7 @@ console.log("In every programming language it starts with \'Hello, World!\'")
 console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
 ```
 
-Output in console:
+**Output in console:**
 
 ```sh
 I hope everyone is enjoying the 30 Days Of JavaScript challenge.
@@ -402,7 +402,7 @@ See the syntax below.
 `String literal text ${expression}`
 ```
 
-**Example: 1**
+**Example 1:**
 
 ```js
 console.log(`The sum of 2 and 3 is 5`) // statically writing the data
@@ -412,7 +412,7 @@ let b = 3
 console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynamically
 ```
 
-**Example: 2**
+**Example 2:**
 
 ```js
 let firstName = 'Asabeneh'
@@ -454,13 +454,14 @@ A string is a primitive data type that means we can not modify it once it is cre
 The string object has many string methods.
 There are different string methods that can help us to work with strings.
 
-1. *length*: The string *length* method returns the number of characters in a string included empty space.
+1. *length*: The string *length* method returns the number of characters in a string, including empty spaces.
 
 **Example:**
 
 ```js
 let js = 'JavaScript'
 console.log(js.length) // 10
+
 let firstName = 'Asabeneh'
 console.log(firstName.length) // 8
 ```
