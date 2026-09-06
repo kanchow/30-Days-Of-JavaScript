@@ -166,7 +166,7 @@ console.log('Hello, World!')
 ##### Console.log with Multiple Arguments
 
 The **`console.log()`** function can take multiple parameters separated by commas.
-The syntax looks like as follows: **`console.log(param1, param2, param3)`**
+The syntax looks like as follows: **`console.log(param1, param2, param3)`**.
 
 ![console log multiple arguments](../images/console_log_multipl_arguments.png)
 
@@ -234,7 +234,7 @@ console.log('Hello, World!')
 ```
 
 So far, we saw how to display text using the _`console.log()`_.
-If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
+If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or backticks.
 
 **Example:**
 
@@ -319,7 +319,7 @@ Then paste the following code and open it in a browser, for example [Chrome](htt
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Inline Script</title>
+    <title>30DaysOfScript: Inline Script</title>
   </head>
   <body>
     <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
@@ -339,7 +339,7 @@ First, let us write on the head part of the page.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30DaysOfScript: Internal Script</title>
     <script>
       console.log('Welcome to 30DaysOfJavaScript')
     </script>
@@ -388,7 +388,7 @@ External scripts in the _head_:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfJavaScript:External script</title>
+    <title>30DaysOfJavaScript: External script</title>
     <script src="introduction.js"></script>
   </head>
   <body></body>
@@ -401,7 +401,7 @@ External scripts in the _body_:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfJavaScript:External script</title>
+    <title>30DaysOfJavaScript: External script</title>
   </head>
   <body>
     <!-- JavaScript external link could be in the header or in the body -->
@@ -426,7 +426,7 @@ console.log('Hello, World!')
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Multiple External Scripts</title>
+    <title>30DaysOfJavaScript: Multiple External Scripts</title>
   </head>
   <body>
     <script src="./helloworld.js"></script>
