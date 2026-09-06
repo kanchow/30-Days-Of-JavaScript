@@ -613,7 +613,7 @@ let country = 'Finland'
 console.log(country.replace('Fin', 'Noman')) // Nomanland
 ```
 
-11. *charAt()*: Takes index and it returns the value at that index.
+11. *charAt()*: Takes an index and returns the value at that index.
 
 ```js
 string.charAt(index)
@@ -627,7 +627,7 @@ let lastIndex = string.length - 1
 console.log(string.charAt(lastIndex)) // t
 ```
 
-12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index.
+12. *charCodeAt()*: Takes an index and returns the char code (ASCII number) of the value at that index.
 
 ```js
 string.charCodeAt(index)
