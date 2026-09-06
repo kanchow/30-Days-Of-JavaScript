@@ -599,7 +599,7 @@ console.log(country.includes('land')) // true
 console.log(country.includes('Land')) // false
 ```
 
-10. *replace()*: Takes as a parameter the old substring and a new substring.
+10. *replace()*: Takes the old substring and the new substring as its arguments.
 
 ```js
 string.replace(oldsubstring, newsubstring)
