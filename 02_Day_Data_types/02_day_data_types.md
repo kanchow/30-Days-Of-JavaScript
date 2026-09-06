@@ -39,8 +39,8 @@
 			- [String to Float](#string-to-float)
 			- [Float to Int](#float-to-int)
 	- [💻 Day 2: Exercises](#-day-2-exercises)
-		- [Exercise: Level 1](#exercise-level-1)
-		- [Exercise: Level 2](#exercise-level-2)
+		- [Exercises: Level 1](#exercises-level-1)
+		- [Exercises: Level 2](#exercises-level-2)
 		- [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 2
