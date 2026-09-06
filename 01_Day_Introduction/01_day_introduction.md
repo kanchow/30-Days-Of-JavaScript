@@ -186,7 +186,7 @@ You wrote your first JavaScript code using _`console.log()`_.
 We can add comments to our code.
 Comments are very important to make code more readable and to leave remarks in our code.
 JavaScript does not execute the comment part of our code.
-In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+In JavaScript, any text line starting with `//` in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
 
 **Example: Single Line Comment**
 
