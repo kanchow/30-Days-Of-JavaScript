@@ -1,6 +1,4 @@
-// length: The string length method returns the number of characters in a string included empty space.
-
-// Example:
+// length: The string length method returns the number of characters in a string, including empty spaces.
 
 let js = 'JavaScript'
 console.log(js.length) // 10

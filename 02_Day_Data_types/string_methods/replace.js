@@ -1,4 +1,4 @@
-// replace(): Takes to parameters the old substring and new substring.
+// replace(): Takes two parameters: the old substring and new substring.
 
 /*
   Syntax:
