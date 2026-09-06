@@ -851,7 +851,7 @@ console.log(typeof null)       // object
 
 #### String to Int
 
-We can convert string number to a number.
+We can convert string numbers to numbers.
 Any number inside a quote is a string number.
 An example of a string number: '10', '5', etc.
 We can convert string to number using the following methods:
@@ -880,7 +880,7 @@ console.log(numInt) // 10
 
 #### String to Float
 
-We can convert string float number to a float number.
+We can convert string float numbers to float numbers.
 Any float number inside a quote is a string float number.
 An example of a string float number: '9.81', '3.14', '1.44', etc.
 We can convert string float to number using the following methods:
