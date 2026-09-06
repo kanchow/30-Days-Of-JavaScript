@@ -529,7 +529,7 @@ let country = 'Finland'
 console.log(country.substr(3, 4)) // land
 ```
 
-6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
+6. *substring()*: It takes two arguments, the starting index and the stopping index, but it doesn't include the character at the stopping index.
 
 ```js
 let string = 'JavaScript'
