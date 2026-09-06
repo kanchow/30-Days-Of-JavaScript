@@ -9,9 +9,8 @@
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
+  <small>January, 2020</small>
   </sub>
-</div>
 </div>
 
 [<< Day 1](../01_Day_Introduction/01_day_introduction.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)

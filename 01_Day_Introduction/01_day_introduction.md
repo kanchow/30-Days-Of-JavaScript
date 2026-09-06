@@ -9,9 +9,8 @@
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
+  <small>January, 2020</small>
   </sub>
-</div>
 </div>
 
 [Day 2 >>](../02_Day_Data_types/02_day_data_types.md)
