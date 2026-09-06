@@ -198,29 +198,23 @@ In JavaScript the Math Object provides a lot of methods to work with numbers.
 
 ```js
 const PI = Math.PI
-
 console.log(PI) // 3.141592653589793
 
 // Rounding to the closest number
 // if above .5 up if less 0.5 down rounding
-
 console.log(Math.round(PI))   // 3 to round values to the nearest number
-
 console.log(Math.round(9.81)) // 10
 
-console.log(Math.floor(PI))   // 3 rounding down
-
-console.log(Math.ceil(PI))    // 4 rounding up
+console.log(Math.floor(PI)) // 3 rounding down
+console.log(Math.ceil(PI))  // 4 rounding up
 
 console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
-
 console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
 const randNum = Math.random() // creates random number between 0 (inclusive) and 1 (exclusive)
 console.log(randNum)
 
 // Let us create random number between 0 to 10
-
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
 
