@@ -580,8 +580,7 @@ Asabeneh
 ```
 
 9. *includes()*: Takes a substring argument and checks if the substring argument exists in the string.
-   It returns a boolean.
-   If the substring argument exists in a string, it returns true, otherwise it returns false.
+   It returns a boolean (true or false).
 
 ```js
 let string = '30 Days Of JavaScript'
